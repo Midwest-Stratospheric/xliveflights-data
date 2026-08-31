@@ -1,12 +1,13 @@
 {
-  "lat": 40.68267563382785,
-  "lon": -87.85839519997438,
-  "place": "Iroquois County, Illinois, United States",
-  "speedKph": 60,
-  "heading": 267,
-  "altM": 212,
+  "lat": 40.722748633225756,
+  "lon": -87.8610114167134,
+  "place": "1458 1400 East, Crescent City, Iroquois County, Illinois 60928, United States",
+  "speedKph": 94,
+  "heading": 358,
+  "altM": 202,
   "battery": 90,
   "signal": 100,
-  "sats": 7,
-  "status": "WAKING_UP"
+  "sats": 8,
+  "status": "WAKING_UP",
+  "updated_at": "2026-08-31T22:53:00Z"
 }

@@ -1,0 +1,62 @@
+name: poll tracker
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch tracker into current.json
+        run: |
+          python3 <<'PY'
+          import json, urllib.request, datetime, os
+          url = "https://tracking.landairsea.com/api/rest/share-spot/token/4d670dbf-b2ff-472f-a7a4-9da921080012"
+          req = urllib.request.Request(url, headers={"User-Agent": "xliveflights-action"})
+          data = json.load(urllib.request.urlopen(req, timeout=20))
+          a = data["data"]["device"]["attributes"]
+          def v(k):
+              return a.get(k, {}).get("value")
+          cur = {
+              "lat": v("latitude"),
+              "lon": v("longitude"),
+              "place": v("location"),
+              "speedKph": v("speed"),
+              "heading": v("heading"),
+              "altM": v("altitude"),
+              "battery": v("batteryPercentage"),
+              "signal": v("cellSignal"),
+              "sats": v("satellites"),
+              "status": v("deviceStatus"),
+              "updated_at": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+          }
+          open("current.json", "w").write(json.dumps(cur, indent=2) + "\n")
+          if os.path.exists("live.json"):
+              live = json.load(open("live.json"))
+              live["last_fix"] = {
+                  "lat": cur["lat"],
+                  "lon": cur["lon"],
+                  "alt_ft": None if cur["altM"] is None else round(float(cur["altM"]) * 3.28084, 1),
+                  "speed_kt": None if cur["speedKph"] is None else round(float(cur["speedKph"]) / 1.852, 2),
+                  "heading_deg": cur["heading"],
+                  "sats": cur["sats"],
+                  "battery_pct": cur["battery"],
+                  "signal_pct": cur["signal"],
+                  "address": cur["place"],
+                  "raw_status": cur["status"],
+              }
+              live["updated_at"] = cur["updated_at"]
+              if cur["speedKph"] is not None and float(cur["speedKph"]) / 1.852 >= 3:
+                  live["last_moving"] = cur["updated_at"]
+              open("live.json", "w").write(json.dumps(live, indent=2) + "\n")
+          PY
+      - name: Commit if changed
+        run: |
+          git config user.name "xLiveFlights-bot"
+          git config user.email "launchcontrol@midwestsds.com"
+          git add current.json live.json
+          git diff --cached --quiet || git commit -m "poll: refresh current fix"
+          git push
