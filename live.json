@@ -1,20 +1,20 @@
 {
-  "open": true,
+  "open": false,
   "flight_id": "xlf-1788215245939",
   "started_at": "2026-08-31T22:27:25.939204Z",
   "last_moving": "2026-08-31T22:50:35Z",
-  "last_stopped": null,
+  "last_stopped": "2026-08-31T23:13:51Z",
   "last_fix": {
-    "lat": 40.68267563382785,
-    "lon": -87.85839519997438,
-    "alt_ft": 695.5,
-    "speed_kt": 32.4,
-    "heading_deg": 267,
-    "sats": 7,
-    "battery_pct": 90,
+    "lat": 40.75232258339723,
+    "lon": -87.99652723322312,
+    "alt_ft": 623.4,
+    "speed_kt": 0.0,
+    "heading_deg": 252,
+    "sats": 9,
+    "battery_pct": 95,
     "signal_pct": 100.0,
     "address": "Iroquois County, Illinois, United States",
-    "raw_status": "WAKING_UP"
+    "raw_status": "GOING_TO_SLEEP"
   },
-  "updated_at": "2026-08-31T22:50:35Z"
+  "updated_at": "2026-08-31T23:13:51Z"
 }
