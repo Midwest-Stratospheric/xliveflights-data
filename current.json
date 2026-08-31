@@ -1,13 +1,13 @@
 {
-  "lat": 40.75232258339723,
-  "lon": -87.99652723322312,
-  "place": "1043 South Crescent Street, Gilman, Iroquois County, Illinois 60938, United States",
-  "speedKph": 13,
-  "heading": 270,
-  "altM": 200,
-  "battery": 90,
+  "lat": 40.773531,
+  "lon": -87.988972,
+  "place": "597 North Hartwell Street, Gilman, Iroquois County, Illinois 60938, United States",
+  "speedKph": 0,
+  "heading": 356,
+  "altM": 193,
+  "battery": 95,
   "signal": 100,
-  "sats": 8,
-  "status": "WAKING_UP",
-  "updated_at": "2026-08-31T23:12:00Z"
+  "sats": 9,
+  "status": "GOING_TO_SLEEP",
+  "updated_at": "2026-08-31T23:22:00Z"
 }
