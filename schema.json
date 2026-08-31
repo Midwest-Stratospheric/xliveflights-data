@@ -1,0 +1,25 @@
+{
+  "program": "Aerostratospheric",
+  "desk": "xLiveFlights",
+  "units": {
+    "speed": "kt",
+    "altitude": "ft",
+    "range": "nmi",
+    "bearing": "deg true"
+  },
+  "flight": {
+    "id": "string",
+    "status": "open|closed",
+    "likely": "in-flight|not-in-flight",
+    "start": "ISO-8601",
+    "end": "ISO-8601 or null",
+    "duration_s": "number",
+    "tracker_status_raw": "string",
+    "start_fix": { "lat": 0, "lon": 0, "alt_ft": 0, "speed_kt": 0, "heading_deg": 0, "sats": 0, "battery_pct": 0, "signal_pct": 0, "address": "string" },
+    "end_fix": "same shape or null",
+    "max_alt_ft": 0,
+    "max_speed_kt": 0,
+    "max_range_nmi": 0,
+    "samples": "optional array of fixes"
+  }
+}
