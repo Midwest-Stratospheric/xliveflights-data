@@ -2,14 +2,14 @@
   "program": "Aerostratospheric",
   "source": "xLiveFlights-automation",
   "repo": "https://github.com/Midwest-Stratospheric/xliveflights-data",
-  "updated_at": "2026-08-31T22:27:25.939204Z",
+  "updated_at": "2026-08-31T23:13:51Z",
   "flights": [
     {
       "flight_id": "xlf-1788215245939",
-      "status": "open",
+      "status": "closed",
       "likely": "in-flight",
       "start": "2026-08-31T22:27:25.939204Z",
-      "end": null,
+      "end": "2026-08-31T23:13:51Z",
       "start_fix": {
         "lat": 40.52581071654956,
         "lon": -87.69195168316364,
@@ -22,7 +22,18 @@
         "address": "262 County Road 2300 East, Wellington, Iroquois County, Illinois 60973, United States",
         "raw_status": "WAKING_UP"
       },
-      "end_fix": null,
+      "end_fix": {
+        "lat": 40.75232258339723,
+        "lon": -87.99652723322312,
+        "alt_ft": 623.4,
+        "speed_kt": 0.0,
+        "heading_deg": 252,
+        "sats": 9,
+        "battery_pct": 95,
+        "signal_pct": 100.0,
+        "address": "Iroquois County, Illinois, United States",
+        "raw_status": "GOING_TO_SLEEP"
+      },
       "samples": [
         {
           "lat": 40.52581071654956,
@@ -39,7 +50,7 @@
       ],
       "max_alt_ft": 692.3,
       "max_speed_kt": 48.06,
-      "duration_s": null
+      "duration_s": 2785
     }
   ]
 }
