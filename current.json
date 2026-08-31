@@ -1,13 +1,13 @@
 {
-  "lat": 40.722748633225756,
-  "lon": -87.8610114167134,
-  "place": "1458 1400 East, Crescent City, Iroquois County, Illinois 60928, United States",
-  "speedKph": 94,
-  "heading": 358,
-  "altM": 202,
+  "lat": 40.75232258339723,
+  "lon": -87.99652723322312,
+  "place": "1043 South Crescent Street, Gilman, Iroquois County, Illinois 60938, United States",
+  "speedKph": 13,
+  "heading": 270,
+  "altM": 200,
   "battery": 90,
   "signal": 100,
   "sats": 8,
   "status": "WAKING_UP",
-  "updated_at": "2026-08-31T22:53:00Z"
+  "updated_at": "2026-08-31T23:12:00Z"
 }
