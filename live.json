@@ -3,7 +3,7 @@
   "flight_id": "xlf-1788215245939",
   "started_at": "2026-08-31T22:27:25.939204Z",
   "last_moving": "2026-08-31T22:50:35Z",
-  "last_stopped": "2026-08-31T23:13:51Z",
+  "last_stopped": "2026-09-01T00:05:11Z",
   "last_fix": {
     "lat": 40.75232258339723,
     "lon": -87.99652723322312,
@@ -16,5 +16,5 @@
     "address": "Iroquois County, Illinois, United States",
     "raw_status": "GOING_TO_SLEEP"
   },
-  "updated_at": "2026-08-31T23:13:51Z"
+  "updated_at": "2026-09-01T00:05:11Z"
 }
