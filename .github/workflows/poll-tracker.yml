@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Fetch tracker into current.json
+      - name: Record tracker start/stop from the device
         run: |
           python3 <<'PY'
           import json, urllib.request, datetime, os
@@ -19,44 +19,119 @@ jobs:
           data = json.load(urllib.request.urlopen(req, timeout=20))
           a = data["data"]["device"]["attributes"]
           def v(k):
-              return a.get(k, {}).get("value")
-          cur = {
+              rec = a.get(k) or {}
+              return rec.get("value")
+          def ts(k):
+              rec = a.get(k) or {}
+              return rec.get("timestamp")
+          now = datetime.datetime.utcnow()
+          now_iso = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+          fix_ms = ts("latitude") or ts("speed") or ts("deviceStatus")
+          if fix_ms:
+              fix_dt = datetime.datetime.utcfromtimestamp(float(fix_ms) / 1000.0)
+              fix_iso = fix_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+              age_min = (now - fix_dt).total_seconds() / 60.0
+          else:
+              fix_iso = now_iso
+              age_min = 999
+          speed = v("speed")
+          kt = (float(speed) / 1.852) if speed is not None else 0.0
+          stale = age_min > 3
+          moving = (not stale) and kt >= 3
+          snap = {
               "lat": v("latitude"),
               "lon": v("longitude"),
-              "place": v("location"),
-              "speedKph": v("speed"),
-              "heading": v("heading"),
-              "altM": v("altitude"),
-              "battery": v("batteryPercentage"),
-              "signal": v("cellSignal"),
+              "alt_ft": None if v("altitude") is None else round(float(v("altitude")) * 3.28084, 1),
+              "speed_kt": round(kt, 2),
+              "heading_deg": v("heading"),
               "sats": v("satellites"),
-              "status": v("deviceStatus"),
-              "updated_at": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+              "battery_pct": v("batteryPercentage"),
+              "signal_pct": v("cellSignal"),
+              "address": v("location"),
+              "raw_status": v("deviceStatus"),
+              "fix_at": fix_iso,
+          }
+          cur = {
+              "lat": snap["lat"],
+              "lon": snap["lon"],
+              "place": snap["address"],
+              "speedKph": speed,
+              "heading": snap["heading_deg"],
+              "altM": v("altitude"),
+              "battery": snap["battery_pct"],
+              "signal": snap["signal_pct"],
+              "sats": snap["sats"],
+              "status": snap["raw_status"],
+              "updated_at": fix_iso,
           }
           open("current.json", "w").write(json.dumps(cur, indent=2) + "\n")
+          live = {}
           if os.path.exists("live.json"):
               live = json.load(open("live.json"))
-              live["last_fix"] = {
-                  "lat": cur["lat"],
-                  "lon": cur["lon"],
-                  "alt_ft": None if cur["altM"] is None else round(float(cur["altM"]) * 3.28084, 1),
-                  "speed_kt": None if cur["speedKph"] is None else round(float(cur["speedKph"]) / 1.852, 2),
-                  "heading_deg": cur["heading"],
-                  "sats": cur["sats"],
-                  "battery_pct": cur["battery"],
-                  "signal_pct": cur["signal"],
-                  "address": cur["place"],
-                  "raw_status": cur["status"],
+          flights = {"program": "Aerostratospheric", "source": "xLiveFlights-automation",
+                     "repo": "https://github.com/Midwest-Stratospheric/xliveflights-data",
+                     "updated_at": now_iso, "flights": []}
+          if os.path.exists("flights.json"):
+              flights = json.load(open("flights.json"))
+          live["last_fix"] = snap
+          live["updated_at"] = fix_iso
+          live["source"] = "tracker-poll"
+          live["page_visit_does_not_start_flight"] = True
+          if moving:
+              live["last_moving"] = fix_iso
+              live["moving_streak"] = int(live.get("moving_streak") or 0) + 1
+              live["stopped_streak"] = 0
+          else:
+              live["last_stopped"] = fix_iso
+              live["stopped_streak"] = int(live.get("stopped_streak") or 0) + 1
+              live["moving_streak"] = 0
+          flist = flights.get("flights") or []
+          open_idx = next((i for i, f in enumerate(flist) if f.get("status") == "open"), None)
+          if moving and live.get("moving_streak", 0) >= 2 and open_idx is None:
+              fid = "xlf-" + str(int(datetime.datetime.utcnow().timestamp() * 1000))
+              rec = {
+                  "flight_id": fid,
+                  "status": "open",
+                  "likely": "in-flight",
+                  "start": fix_iso,
+                  "end": None,
+                  "start_reason": "tracker moving >= 3 kt, fresh fix",
+                  "start_fix": snap,
+                  "end_fix": None,
+                  "samples": [snap],
+                  "max_alt_ft": snap.get("alt_ft") or 0,
+                  "max_speed_kt": snap.get("speed_kt") or 0,
               }
-              live["updated_at"] = cur["updated_at"]
-              if cur["speedKph"] is not None and float(cur["speedKph"]) / 1.852 >= 3:
-                  live["last_moving"] = cur["updated_at"]
-              open("live.json", "w").write(json.dumps(live, indent=2) + "\n")
+              flist.insert(0, rec)
+              live["open"] = True
+              live["flight_id"] = fid
+              live["started_at"] = fix_iso
+          elif moving and open_idx is not None:
+              rec = flist[open_idx]
+              rec["samples"] = (rec.get("samples") or [])[-20:] + [snap]
+              rec["max_speed_kt"] = max(float(rec.get("max_speed_kt") or 0), float(snap.get("speed_kt") or 0))
+              if snap.get("alt_ft") is not None:
+                  rec["max_alt_ft"] = max(float(rec.get("max_alt_ft") or 0), float(snap.get("alt_ft") or 0))
+              live["open"] = True
+              live["flight_id"] = rec.get("flight_id")
+          if (not moving) and live.get("stopped_streak", 0) >= 2 and open_idx is not None:
+              rec = flist[open_idx]
+              rec["status"] = "closed"
+              rec["likely"] = "not-in-flight"
+              rec["end"] = fix_iso
+              rec["end_reason"] = "tracker stale or speed < 3 kt"
+              rec["end_fix"] = snap
+              live["open"] = False
+              live["ended_at"] = fix_iso
+          flights["flights"] = flist
+          flights["updated_at"] = now_iso
+          open("live.json", "w").write(json.dumps(live, indent=2) + "\n")
+          open("flights.json", "w").write(json.dumps(flights, indent=2) + "\n")
           PY
       - name: Commit if changed
         run: |
           git config user.name "xLiveFlights-bot"
           git config user.email "launchcontrol@midwestsds.com"
-          git add current.json live.json
-          git diff --cached --quiet || git commit -m "poll: refresh current fix"
+          git add current.json live.json flights.json
+          git diff --cached --quiet || git commit -m "poll: tracker start/stop from device, not page visit"
           git push
