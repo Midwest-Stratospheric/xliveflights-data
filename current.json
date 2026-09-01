@@ -1,13 +1,13 @@
 {
-  "lat": 40.65077748335898,
-  "lon": -88.03521515031656,
-  "place": "I 57, Iroquois County, Illinois, United States",
-  "speedKph": 109,
-  "heading": 178,
-  "altM": 200,
-  "battery": 90,
-  "signal": 100,
-  "sats": 9,
-  "status": "GOING_TO_SLEEP",
-  "updated_at": "2026-08-31T23:33:00Z"
+  "lat": 39.44959299961726,
+  "lon": -88.02746673325697,
+  "place": "Westfield Road, Coles County, Illinois, United States",
+  "speedKph": 97,
+  "heading": 90,
+  "altM": 225.0,
+  "battery": 80,
+  "signal": 93.24,
+  "sats": 8,
+  "status": "POWERING_OFF",
+  "updated_at": "2026-09-01T01:44:51Z"
 }

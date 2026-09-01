@@ -2,19 +2,19 @@
   "open": true,
   "flight_id": "xlf-1788225473082",
   "started_at": "2026-09-01T01:17:53.081Z",
-  "last_moving": "2026-09-01T01:17:53.081Z",
+  "last_moving": "2026-09-01T01:44:51Z",
   "last_stopped": "2026-09-01T00:05:11Z",
   "last_fix": {
-    "lat": 39.48428901663671,
-    "lon": -88.26828429996968,
-    "alt_ft": 662.7,
-    "speed_kt": 40.5,
+    "lat": 39.44959299961726,
+    "lon": -88.02746673325697,
+    "alt_ft": 738.2,
+    "speed_kt": 52.38,
     "heading_deg": 90,
-    "sats": 10,
+    "sats": 8,
     "battery_pct": 80,
-    "signal_pct": 100.0,
-    "address": "10418 Illinois Route 16, Charleston, Coles County, Illinois 61938, United States",
-    "raw_status": "WAKING_UP"
+    "signal_pct": 93.24,
+    "address": "Westfield Road, Coles County, Illinois, United States",
+    "raw_status": "POWERING_OFF"
   },
-  "updated_at": "2026-09-01T01:17:53.081Z"
+  "updated_at": "2026-09-01T01:44:51Z"
 }
