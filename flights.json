@@ -2,8 +2,43 @@
   "program": "Aerostratospheric",
   "source": "xLiveFlights-automation",
   "repo": "https://github.com/Midwest-Stratospheric/xliveflights-data",
-  "updated_at": "2026-09-01T05:08:53.298Z",
+  "updated_at": "2026-09-01T06:01:17.549Z",
   "flights": [
+    {
+      "flight_id": "xlf-1788242479473",
+      "status": "open",
+      "likely": "in-flight",
+      "start": "2026-09-01T06:01:17.549Z",
+      "end": null,
+      "start_fix": {
+        "lat": 40.21948603341977,
+        "lon": -88.20689431627592,
+        "alt_ft": 728.3,
+        "speed_kt": 51.3,
+        "heading_deg": 216,
+        "sats": 8,
+        "battery_pct": 90,
+        "signal_pct": 100.0,
+        "address": "I 57, Champaign County, Illinois, United States",
+        "raw_status": "GOING_TO_SLEEP"
+      },
+      "samples": [
+        {
+          "lat": 40.21948603341977,
+          "lon": -88.20689431627592,
+          "alt_ft": 728.3,
+          "speed_kt": 51.3,
+          "heading_deg": 216,
+          "sats": 8,
+          "battery_pct": 90,
+          "signal_pct": 100.0,
+          "address": "I 57, Champaign County, Illinois, United States",
+          "raw_status": "GOING_TO_SLEEP"
+        }
+      ],
+      "max_alt_ft": 728.3,
+      "max_speed_kt": 51.3
+    },
     {
       "flight_id": "xlf-1788235817180",
       "status": "closed",
