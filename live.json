@@ -3,7 +3,7 @@
   "flight_id": "xlf-1788242479473",
   "started_at": "2026-09-01T06:01:17.549Z",
   "last_moving": "2026-09-01T06:01:17.549Z",
-  "last_stopped": "2026-09-01T19:11:36Z",
+  "last_stopped": "2026-09-01T13:50:58Z",
   "last_fix": {
     "lat": 39.29658190011978,
     "lon": -87.98531439999739,
@@ -13,14 +13,14 @@
     "sats": 0,
     "battery_pct": 100,
     "signal_pct": 100.0,
-    "address": "Launch site",
+    "address": "651 East Jefferson Avenue, Casey, Clark County, Illinois 62420, United States",
     "raw_status": "POWERING_OFF",
-    "fix_at": "2026-09-01T19:11:36Z"
+    "fix_at": "2026-09-01T13:50:58Z"
   },
-  "updated_at": "2026-09-01T19:11:36Z",
+  "updated_at": "2026-09-01T13:50:58Z",
   "source": "tracker-poll",
   "page_visit_does_not_start_flight": true,
-  "stopped_streak": 14,
+  "stopped_streak": 15,
   "moving_streak": 0,
   "ended_at": "2026-09-01T05:01:27Z"
 }
