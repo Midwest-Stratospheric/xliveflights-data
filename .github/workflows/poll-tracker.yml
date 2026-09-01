@@ -13,7 +13,7 @@ jobs:
       - name: Record tracker start/stop from the device
         run: |
           python3 <<'PY'
-          import json, urllib.request, datetime, os
+          import json, urllib.request, datetime, os, math
           url = "https://tracking.landairsea.com/api/rest/share-spot/token/4d670dbf-b2ff-472f-a7a4-9da921080012"
           req = urllib.request.Request(url, headers={"User-Agent": "xliveflights-action"})
           data = json.load(urllib.request.urlopen(req, timeout=20))
@@ -28,9 +28,8 @@ jobs:
           now_iso = now.strftime("%Y-%m-%dT%H:%M:%SZ")
           fix_ms = ts("latitude") or ts("speed") or ts("deviceStatus")
           if fix_ms:
-              fix_dt = datetime.datetime.utcfromtimestamp(float(fix_ms) / 1000.0)
-              fix_iso = fix_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
-              age_min = (now - fix_dt).total_seconds() / 60.0
+              fix_iso = datetime.datetime.utcfromtimestamp(float(fix_ms) / 1000.0).strftime("%Y-%m-%dT%H:%M:%SZ")
+              age_min = (now - datetime.datetime.utcfromtimestamp(float(fix_ms) / 1000.0)).total_seconds() / 60.0
           else:
               fix_iso = now_iso
               age_min = 999
@@ -114,24 +113,66 @@ jobs:
                   rec["max_alt_ft"] = max(float(rec.get("max_alt_ft") or 0), float(snap.get("alt_ft") or 0))
               live["open"] = True
               live["flight_id"] = rec.get("flight_id")
-          if (not moving) and live.get("stopped_streak", 0) >= 2 and open_idx is not None:
+          if (age_min >= 60 or ((not moving) and live.get("stopped_streak", 0) >= 2)) and open_idx is not None:
               rec = flist[open_idx]
               rec["status"] = "closed"
               rec["likely"] = "not-in-flight"
               rec["end"] = fix_iso
-              rec["end_reason"] = "tracker stale or speed < 3 kt"
+              rec["end_reason"] = "tracker offline 60+ min or quiet"
               rec["end_fix"] = snap
+              try:
+                  t0 = datetime.datetime.strptime(rec["start"].replace("Z",""), "%Y-%m-%dT%H:%M:%S")
+                  t1 = datetime.datetime.strptime(fix_iso.replace("Z",""), "%Y-%m-%dT%H:%M:%S")
+                  rec["duration_s"] = int((t1 - t0).total_seconds())
+              except Exception:
+                  rec["duration_s"] = None
               live["open"] = False
               live["ended_at"] = fix_iso
           flights["flights"] = flist
           flights["updated_at"] = now_iso
           open("live.json", "w").write(json.dumps(live, indent=2) + "\n")
           open("flights.json", "w").write(json.dumps(flights, indent=2) + "\n")
+          caps = []
+          for f in flist:
+              if f.get("status") != "closed":
+                  continue
+              sf = f.get("start_fix") or {}
+              ef = f.get("end_fix") or {}
+              caps.append({
+                  "flight_id": f.get("flight_id"),
+                  "status": "closed",
+                  "kind": "past-flight-data",
+                  "start": f.get("start"),
+                  "end": f.get("end"),
+                  "duration_s": f.get("duration_s"),
+                  "max_alt_ft": f.get("max_alt_ft"),
+                  "max_speed_kt": f.get("max_speed_kt"),
+                  "start_place": sf.get("address"),
+                  "end_place": ef.get("address"),
+                  "start_lat": sf.get("lat"),
+                  "start_lon": sf.get("lon"),
+                  "end_lat": ef.get("lat"),
+                  "end_lon": ef.get("lon"),
+                  "battery_pct": ef.get("battery_pct") if ef.get("battery_pct") is not None else sf.get("battery_pct"),
+                  "signal_pct": ef.get("signal_pct") if ef.get("signal_pct") is not None else sf.get("signal_pct"),
+                  "end_reason": f.get("end_reason") or "closed",
+                  "captured_at": f.get("end"),
+              })
+          catalog = {
+              "layer": "flight",
+              "program": "Aerostratospheric",
+              "kind": "past-flight-capture",
+              "source": "xLiveFlights",
+              "updated_at": now_iso,
+              "count": len(caps),
+              "captures": caps,
+          }
+          open("captures.json", "w").write(json.dumps(catalog, indent=2) + "\n")
           PY
       - name: Commit if changed
         run: |
           git config user.name "xLiveFlights-bot"
           git config user.email "launchcontrol@midwestsds.com"
-          git add current.json live.json flights.json
+          git add current.json live.json flights.json captures.json
           git diff --cached --quiet || git commit -m "poll: tracker start/stop from device, not page visit"
           git push
