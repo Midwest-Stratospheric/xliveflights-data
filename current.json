@@ -1,13 +1,13 @@
 {
-  "lat": 39.296473532915115,
-  "lon": -87.98514488339424,
-  "place": "671 East Jefferson Avenue, Casey, Clark County, Illinois 62420, United States",
+  "lat": 39.29658190011978,
+  "lon": -87.98531439999739,
+  "place": "651 East Jefferson Avenue, Casey, Clark County, Illinois 62420, United States",
   "speedKph": 0,
-  "heading": 0,
-  "altM": 196.0,
+  "heading": 329,
+  "altM": 161.0,
   "battery": 100,
-  "signal": 79.92,
-  "sats": 8,
+  "signal": 100.0,
+  "sats": 0,
   "status": "POWERING_OFF",
-  "updated_at": "2026-09-01T05:01:27Z"
+  "updated_at": "2026-09-01T13:50:58Z"
 }
