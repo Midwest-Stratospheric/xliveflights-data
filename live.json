@@ -1,20 +1,20 @@
 {
-  "open": false,
-  "flight_id": "xlf-1788215245939",
-  "started_at": "2026-08-31T22:27:25.939204Z",
-  "last_moving": "2026-08-31T22:50:35Z",
+  "open": true,
+  "flight_id": "xlf-1788225473082",
+  "started_at": "2026-09-01T01:17:53.081Z",
+  "last_moving": "2026-09-01T01:17:53.081Z",
   "last_stopped": "2026-09-01T00:05:11Z",
   "last_fix": {
-    "lat": 40.75232258339723,
-    "lon": -87.99652723322312,
-    "alt_ft": 623.4,
-    "speed_kt": 0.0,
-    "heading_deg": 252,
-    "sats": 9,
-    "battery_pct": 95,
+    "lat": 39.48428901663671,
+    "lon": -88.26828429996968,
+    "alt_ft": 662.7,
+    "speed_kt": 40.5,
+    "heading_deg": 90,
+    "sats": 10,
+    "battery_pct": 80,
     "signal_pct": 100.0,
-    "address": "Iroquois County, Illinois, United States",
-    "raw_status": "GOING_TO_SLEEP"
+    "address": "10418 Illinois Route 16, Charleston, Coles County, Illinois 61938, United States",
+    "raw_status": "WAKING_UP"
   },
-  "updated_at": "2026-09-01T00:05:11Z"
+  "updated_at": "2026-09-01T01:17:53.081Z"
 }
