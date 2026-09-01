@@ -2,14 +2,15 @@
   "program": "Aerostratospheric",
   "source": "xLiveFlights-automation",
   "repo": "https://github.com/Midwest-Stratospheric/xliveflights-data",
-  "updated_at": "2026-09-01T02:09:59.000Z",
+  "updated_at": "2026-09-01T02:48:00Z",
   "flights": [
     {
       "flight_id": "xlf-1788225473082",
-      "status": "open",
-      "likely": "in-flight",
+      "status": "closed",
+      "likely": "not-in-flight",
       "start": "2026-09-01T01:17:53.081Z",
-      "end": null,
+      "end": "2026-09-01T02:09:59.000Z",
+      "end_reason": "tracker offline 60+ min",
       "start_fix": {
         "lat": 39.48428901663671,
         "lon": -88.26828429996968,
@@ -22,79 +23,27 @@
         "address": "10418 Illinois Route 16, Charleston, Coles County, Illinois 61938, United States",
         "raw_status": "WAKING_UP"
       },
-      "samples": [
-        {
-          "lat": 39.48428901663671,
-          "lon": -88.26828429996968,
-          "alt_ft": 662.7,
-          "speed_kt": 40.5,
-          "heading_deg": 90,
-          "sats": 10,
-          "battery_pct": 80,
-          "signal_pct": 100.0,
-          "address": "10418 Illinois Route 16, Charleston, Coles County, Illinois 61938, United States",
-          "raw_status": "WAKING_UP"
-        },
-        {
-          "lat": 39.37016423344612,
-          "lon": -87.98555636703968,
-          "alt_ft": -6558.4,
-          "speed_kt": 38.88,
-          "heading_deg": 179,
-          "sats": 8,
-          "battery_pct": 80,
-          "signal_pct": 93.24,
-          "address": "15383 IL 49, Clark County, Illinois 62420, United States",
-          "raw_status": "POWER_UP"
-        }
-      ],
+      "end_fix": {
+        "lat": 39.37016423344612,
+        "lon": -87.98555636703968,
+        "alt_ft": -6558.4,
+        "speed_kt": 38.88,
+        "heading_deg": 179,
+        "sats": 8,
+        "battery_pct": 80,
+        "signal_pct": 93.24,
+        "address": "15383 IL 49, Clark County, Illinois 62420, United States",
+        "raw_status": "POWER_UP"
+      },
       "max_alt_ft": 662.7,
       "max_speed_kt": 40.5
     },
     {
       "flight_id": "xlf-1788215245939",
       "status": "closed",
-      "likely": "in-flight",
+      "likely": "not-in-flight",
       "start": "2026-08-31T22:27:25.939204Z",
       "end": "2026-08-31T23:13:51Z",
-      "start_fix": {
-        "lat": 40.52581071654956,
-        "lon": -87.69195168316364,
-        "alt_ft": 692.3,
-        "speed_kt": 48.06,
-        "heading_deg": 358,
-        "sats": 9,
-        "battery_pct": 95,
-        "signal_pct": 100.0,
-        "address": "262 County Road 2300 East, Wellington, Iroquois County, Illinois 60973, United States",
-        "raw_status": "WAKING_UP"
-      },
-      "end_fix": {
-        "lat": 40.75232258339723,
-        "lon": -87.99652723322312,
-        "alt_ft": 623.4,
-        "speed_kt": 0.0,
-        "heading_deg": 252,
-        "sats": 9,
-        "battery_pct": 95,
-        "signal_pct": 100.0,
-        "address": "Iroquois County, Illinois, United States",
-        "raw_status": "GOING_TO_SLEEP"
-      },
-      "samples": [
-        {
-          "lat": 40.52581071654956,
-          "lon": -87.69195168316364,
-          "alt_ft": 692.3,
-          "speed_kt": 48.06,
-          "heading_deg": 358,
-          "sats": 9,
-          "battery_pct": 95,
-          "signal_pct": 100.0,
-          "address": "262 County Road 2300 East, Wellington, Iroquois County, Illinois 60973, United States",
-          "raw_status": "WAKING_UP"
-        }
-      ],
       "max_alt_ft": 692.3,
       "max_speed_kt": 48.06,
       "duration_s": 2785

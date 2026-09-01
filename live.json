@@ -1,9 +1,15 @@
 {
-  "open": true,
+  "open": false,
   "flight_id": "xlf-1788225473082",
   "started_at": "2026-09-01T01:17:53.081Z",
+  "ended_at": "2026-09-01T02:09:59.000Z",
   "last_moving": "2026-09-01T02:09:59.000Z",
-  "last_stopped": "2026-09-01T00:05:11Z",
+  "last_stopped": "2026-09-01T02:48:00Z",
+  "moving_streak": 0,
+  "stopped_streak": 3,
+  "source": "tracker-poll",
+  "page_visit_does_not_start_flight": true,
+  "close_rule": "no fresh fix for 60+ minutes",
   "last_fix": {
     "lat": 39.37016423344612,
     "lon": -87.98555636703968,
@@ -14,7 +20,8 @@
     "battery_pct": 80,
     "signal_pct": 93.24,
     "address": "15383 IL 49, Clark County, Illinois 62420, United States",
-    "raw_status": "POWER_UP"
+    "raw_status": "POWER_UP",
+    "fix_at": "2026-09-01T02:09:59.000Z"
   },
-  "updated_at": "2026-09-01T02:09:59.000Z"
+  "updated_at": "2026-09-01T02:48:00Z"
 }
