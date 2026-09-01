@@ -2,14 +2,15 @@
   "program": "Aerostratospheric",
   "source": "xLiveFlights-automation",
   "repo": "https://github.com/Midwest-Stratospheric/xliveflights-data",
-  "updated_at": "2026-09-01T04:10:17.178Z",
+  "updated_at": "2026-09-01T05:08:53.298Z",
   "flights": [
     {
       "flight_id": "xlf-1788235817180",
-      "status": "open",
-      "likely": "in-flight",
+      "status": "closed",
+      "likely": "not-in-flight",
       "start": "2026-09-01T04:10:17.178Z",
-      "end": null,
+      "end": "2026-09-01T05:08:53.298Z",
+      "duration_s": 3516,
       "start_fix": {
         "lat": 39.37016423344612,
         "lon": -87.98555636703968,
@@ -21,6 +22,18 @@
         "signal_pct": 93.24,
         "address": "15383 IL 49, Clark County, Illinois 62420, United States",
         "raw_status": "POWER_UP"
+      },
+      "end_fix": {
+        "lat": 39.296473532915115,
+        "lon": -87.98514488339424,
+        "alt_ft": 643.0,
+        "speed_kt": 0.0,
+        "heading_deg": 0,
+        "sats": 8,
+        "battery_pct": 100,
+        "signal_pct": 79.92,
+        "address": "Launch site",
+        "raw_status": "POWERING_OFF"
       },
       "samples": [
         {
