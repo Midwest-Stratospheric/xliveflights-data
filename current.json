@@ -1,13 +1,13 @@
 {
-  "lat": 39.44959299961726,
-  "lon": -88.02746673325697,
-  "place": "Westfield Road, Coles County, Illinois, United States",
-  "speedKph": 97,
-  "heading": 90,
-  "altM": 225.0,
-  "battery": 80,
-  "signal": 93.24,
+  "lat": 39.296473532915115,
+  "lon": -87.98514488339424,
+  "place": "671 East Jefferson Avenue, Casey, Clark County, Illinois 62420, United States",
+  "speedKph": 0,
+  "heading": 0,
+  "altM": 196.0,
+  "battery": 100,
+  "signal": 79.92,
   "sats": 8,
   "status": "POWERING_OFF",
-  "updated_at": "2026-09-01T01:44:51Z"
+  "updated_at": "2026-09-01T05:01:27Z"
 }

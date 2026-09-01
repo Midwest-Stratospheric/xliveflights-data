@@ -2,14 +2,14 @@
   "program": "Aerostratospheric",
   "source": "xLiveFlights-automation",
   "repo": "https://github.com/Midwest-Stratospheric/xliveflights-data",
-  "updated_at": "2026-09-01T06:01:17.549Z",
+  "updated_at": "2026-09-01T06:48:48Z",
   "flights": [
     {
       "flight_id": "xlf-1788242479473",
-      "status": "open",
-      "likely": "in-flight",
+      "status": "closed",
+      "likely": "not-in-flight",
       "start": "2026-09-01T06:01:17.549Z",
-      "end": null,
+      "end": "2026-09-01T05:01:27Z",
       "start_fix": {
         "lat": 40.21948603341977,
         "lon": -88.20689431627592,
@@ -37,7 +37,22 @@
         }
       ],
       "max_alt_ft": 728.3,
-      "max_speed_kt": 51.3
+      "max_speed_kt": 51.3,
+      "end_reason": "tracker offline 60+ min or quiet",
+      "end_fix": {
+        "lat": 39.296473532915115,
+        "lon": -87.98514488339424,
+        "alt_ft": 643.0,
+        "speed_kt": 0.0,
+        "heading_deg": 0,
+        "sats": 8,
+        "battery_pct": 100,
+        "signal_pct": 79.92,
+        "address": "671 East Jefferson Avenue, Casey, Clark County, Illinois 62420, United States",
+        "raw_status": "POWERING_OFF",
+        "fix_at": "2026-09-01T05:01:27Z"
+      },
+      "duration_s": null
     },
     {
       "flight_id": "xlf-1788235817180",

@@ -1,20 +1,26 @@
 {
-  "open": true,
+  "open": false,
   "flight_id": "xlf-1788242479473",
   "started_at": "2026-09-01T06:01:17.549Z",
   "last_moving": "2026-09-01T06:01:17.549Z",
-  "last_stopped": "2026-09-01T05:08:53.298Z",
+  "last_stopped": "2026-09-01T05:01:27Z",
   "last_fix": {
-    "lat": 40.21948603341977,
-    "lon": -88.20689431627592,
-    "alt_ft": 728.3,
-    "speed_kt": 51.3,
-    "heading_deg": 216,
+    "lat": 39.296473532915115,
+    "lon": -87.98514488339424,
+    "alt_ft": 643.0,
+    "speed_kt": 0.0,
+    "heading_deg": 0,
     "sats": 8,
-    "battery_pct": 90,
-    "signal_pct": 100.0,
-    "address": "I 57, Champaign County, Illinois, United States",
-    "raw_status": "GOING_TO_SLEEP"
+    "battery_pct": 100,
+    "signal_pct": 79.92,
+    "address": "671 East Jefferson Avenue, Casey, Clark County, Illinois 62420, United States",
+    "raw_status": "POWERING_OFF",
+    "fix_at": "2026-09-01T05:01:27Z"
   },
-  "updated_at": "2026-09-01T06:01:17.549Z"
+  "updated_at": "2026-09-01T05:01:27Z",
+  "source": "tracker-poll",
+  "page_visit_does_not_start_flight": true,
+  "stopped_streak": 1,
+  "moving_streak": 0,
+  "ended_at": "2026-09-01T05:01:27Z"
 }
