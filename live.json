@@ -2,19 +2,19 @@
   "open": true,
   "flight_id": "xlf-1788225473082",
   "started_at": "2026-09-01T01:17:53.081Z",
-  "last_moving": "2026-09-01T01:44:51Z",
+  "last_moving": "2026-09-01T02:09:59.000Z",
   "last_stopped": "2026-09-01T00:05:11Z",
   "last_fix": {
-    "lat": 39.44959299961726,
-    "lon": -88.02746673325697,
-    "alt_ft": 738.2,
-    "speed_kt": 52.38,
-    "heading_deg": 90,
+    "lat": 39.37016423344612,
+    "lon": -87.98555636703968,
+    "alt_ft": -6558.4,
+    "speed_kt": 38.88,
+    "heading_deg": 179,
     "sats": 8,
     "battery_pct": 80,
     "signal_pct": 93.24,
-    "address": "Westfield Road, Coles County, Illinois, United States",
-    "raw_status": "POWERING_OFF"
+    "address": "15383 IL 49, Clark County, Illinois 62420, United States",
+    "raw_status": "POWER_UP"
   },
-  "updated_at": "2026-09-01T01:44:51Z"
+  "updated_at": "2026-09-01T02:09:59.000Z"
 }
