@@ -1,13 +1,13 @@
 {
-  "lat": 39.311381766200064,
-  "lon": -87.96925626695156,
-  "place": "11362 North 230th Street, Casey, Clark County, Illinois 62420, United States",
-  "speedKph": 31,
-  "heading": 129,
-  "altM": 1222.0,
-  "battery": 100,
+  "lat": 39.41246401667595,
+  "lon": -87.5610262165467,
+  "place": "North Mt Moriah Road, Clark County, Illinois 62441, United States",
+  "speedKph": 0,
+  "heading": 285,
+  "altM": -1999.0,
+  "battery": 95,
   "signal": 100.0,
   "sats": 11,
-  "status": "WAKING_UP",
-  "updated_at": "2026-09-19T18:17:38Z"
+  "status": "GOING_TO_SLEEP",
+  "updated_at": "2026-09-20T15:59:56Z"
 }
