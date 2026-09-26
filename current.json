@@ -6,8 +6,8 @@
   "heading": 159,
   "altM": 162.0,
   "battery": 95,
-  "signal": 93.24,
-  "sats": 10,
-  "status": "WAKING_UP",
+  "signal": 73.259995,
+  "sats": 7,
+  "status": "GOING_TO_SLEEP",
   "updated_at": "2026-09-25T16:02:33Z"
 }
