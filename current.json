@@ -1,13 +1,13 @@
 {
-  "lat": 39.41245743334294,
-  "lon": -87.56098006665707,
+  "lat": 39.412434083223346,
+  "lon": -87.5610296001037,
   "place": "North Mt Moriah Road, Clark County, Illinois 62441, United States",
   "speedKph": 0,
-  "heading": 67,
-  "altM": 163.0,
+  "heading": 275,
+  "altM": 161.0,
   "battery": 95,
   "signal": 79.92,
   "sats": 9,
   "status": "GOING_TO_SLEEP",
-  "updated_at": "2026-09-27T16:02:33Z"
+  "updated_at": "2026-09-28T16:02:33Z"
 }
