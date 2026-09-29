@@ -3,24 +3,24 @@
   "flight_id": "xlf-1788242479473",
   "started_at": "2026-09-01T06:01:17.549Z",
   "last_moving": "2026-09-01T06:01:17.549Z",
-  "last_stopped": "2026-09-28T16:02:33Z",
+  "last_stopped": "2026-09-29T17:02:33Z",
   "last_fix": {
-    "lat": 39.412434083223346,
-    "lon": -87.5610296001037,
-    "alt_ft": 528.2,
+    "lat": 39.41245461702347,
+    "lon": -87.56098869989316,
+    "alt_ft": 554.5,
     "speed_kt": 0.0,
-    "heading_deg": 275,
-    "sats": 9,
+    "heading_deg": 147,
+    "sats": 10,
     "battery_pct": 95,
     "signal_pct": 79.92,
     "address": "North Mt Moriah Road, Clark County, Illinois 62441, United States",
     "raw_status": "GOING_TO_SLEEP",
-    "fix_at": "2026-09-28T16:02:33Z"
+    "fix_at": "2026-09-29T17:02:33Z"
   },
-  "updated_at": "2026-09-28T16:02:33Z",
+  "updated_at": "2026-09-29T17:02:33Z",
   "source": "tracker-poll",
   "page_visit_does_not_start_flight": true,
-  "stopped_streak": 202,
+  "stopped_streak": 203,
   "moving_streak": 0,
   "ended_at": "2026-09-01T05:01:27Z"
 }
