@@ -1,0 +1,13 @@
+{
+  "product": "xHabNET",
+  "note": "Compiled while the camera is in use. Counts are seconds the label was present, not confirmed detections.",
+  "use_s": 0,
+  "bird_s": 0,
+  "airplane_s": 0,
+  "ufo_s": 0,
+  "balloon_s": 0,
+  "tree_s": 0,
+  "cloud_s": 0,
+  "sun_s": 0,
+  "moon_s": 0
+}
