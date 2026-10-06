@@ -1,6 +1,7 @@
 {
   "product": "xHabNET",
-  "note": "Compiled while the camera is in use. Counts are seconds the label was present, not confirmed detections.",
+  "compiled_in": "xLiveFlights",
+  "note": "Camera use data is compiled in xLiveFlights. Counts are seconds the label was present, not confirmed detections.",
   "use_s": 0,
   "bird_s": 0,
   "airplane_s": 0,
