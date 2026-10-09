@@ -24,6 +24,54 @@ jobs:
           def ts(k):
               rec = a.get(k) or {}
               return rec.get("timestamp")
+          # Ruling 6 (privacy): public data is city level only. Street, house number and ZIP are
+          # dropped; coordinates are rounded to 0.01 degree. Applied at write time and re-applied
+          # to existing records every run, so a stale run cannot reintroduce precise locations.
+          import re
+          ROAD = re.compile(r"\b(Avenue|Ave|Street|St|Road|Rd|Route|Rte|Highway|Hwy|Drive|Dr|Lane|Ln|Boulevard|Blvd|Court|Ct|Way|Place|Pl|Parkway|Pkwy|Trail|Trl|Pike|Circle|Cir|Terrace|Ter|Alley|Interstate|I|US|IL|IN|SR|CR|County Road|Township Road)\b", re.I)
+          LOCATION_PRECISION = "city level: place names reduced to city/county and state; coordinates rounded to 0.01 degree"
+          def city_level(addr):
+              """Reduce a reverse-geocoded address to 'City, State' or 'County, State'. No street, house number or ZIP. Idempotent."""
+              if not addr or not isinstance(addr, str):
+                  return addr
+              parts = [p.strip() for p in addr.split(",") if p.strip()]
+              if len(parts) < 2:
+                  return None if (re.search(r"\d", addr) or ROAD.search(addr)) else addr
+              if parts[-1] in ("United States", "USA", "US", "United States of America"):
+                  parts = parts[:-1]
+              state = re.sub(r"\s*\d{5}(-\d{4})?$", "", parts[-1]).strip()
+              if re.search(r"\d", state):
+                  state = re.sub(r"[\d-]", "", state).strip()
+              rest = parts[:-1]
+              county = rest[-1] if rest and re.search(r"\b(County|Parish)$", rest[-1]) else None
+              if county:
+                  rest = rest[:-1]
+              city = rest[-1] if rest else None
+              ok = city and not re.search(r"\d", city) and not ROAD.search(city)
+              if ok and (len(rest) >= 2 or not county):
+                  return f"{city}, {state}"
+              return f"{county}, {state}" if county else state
+          def rnd(x):
+              try:
+                  return None if x is None else round(float(x), 2)
+              except (TypeError, ValueError):
+                  return None
+          def clean_fix(fx):
+              if isinstance(fx, dict):
+                  for k in ("lat", "lon"):
+                      if k in fx:
+                          fx[k] = rnd(fx[k])
+                  if "address" in fx:
+                      fx["address"] = city_level(fx["address"])
+              return fx
+          def clean_flights(fl):
+              for f in fl.get("flights") or []:
+                  clean_fix(f.get("start_fix"))
+                  clean_fix(f.get("end_fix"))
+                  for s in f.get("samples") or []:
+                      clean_fix(s)
+              fl["location_precision"] = LOCATION_PRECISION
+              return fl
           now = datetime.datetime.utcnow()
           now_iso = now.strftime("%Y-%m-%dT%H:%M:%SZ")
           fix_ms = ts("latitude") or ts("speed") or ts("deviceStatus")
@@ -38,15 +86,15 @@ jobs:
           stale = age_min > 3
           moving = (not stale) and kt >= 3
           snap = {
-              "lat": v("latitude"),
-              "lon": v("longitude"),
+              "lat": rnd(v("latitude")),
+              "lon": rnd(v("longitude")),
               "alt_ft": None if v("altitude") is None else round(float(v("altitude")) * 3.28084, 1),
               "speed_kt": round(kt, 2),
               "heading_deg": v("heading"),
               "sats": v("satellites"),
               "battery_pct": v("batteryPercentage"),
               "signal_pct": v("cellSignal"),
-              "address": v("location"),
+              "address": city_level(v("location")),
               "raw_status": v("deviceStatus"),
               "fix_at": fix_iso,
           }
@@ -62,6 +110,7 @@ jobs:
               "sats": snap["sats"],
               "status": snap["raw_status"],
               "updated_at": fix_iso,
+              "location_precision": LOCATION_PRECISION,
           }
           open("current.json", "w").write(json.dumps(cur, indent=2) + "\n")
           live = {}
@@ -72,6 +121,8 @@ jobs:
                      "updated_at": now_iso, "flights": []}
           if os.path.exists("flights.json"):
               flights = json.load(open("flights.json"))
+          clean_fix(live.get("last_fix"))
+          clean_flights(flights)
           live["last_fix"] = snap
           live["updated_at"] = fix_iso
           live["source"] = "tracker-poll"
@@ -164,6 +215,7 @@ jobs:
               "kind": "past-flight-capture",
               "source": "xLiveFlights",
               "updated_at": now_iso,
+              "location_precision": LOCATION_PRECISION,
               "count": len(caps),
               "captures": caps,
           }
