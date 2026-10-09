@@ -11,28 +11,28 @@
       "start": "2026-09-01T06:01:17.549Z",
       "end": "2026-09-01T05:01:27Z",
       "start_fix": {
-        "lat": 40.21948603341977,
-        "lon": -88.20689431627592,
+        "lat": 40.22,
+        "lon": -88.21,
         "alt_ft": 728.3,
         "speed_kt": 51.3,
         "heading_deg": 216,
         "sats": 8,
         "battery_pct": 90,
         "signal_pct": 100.0,
-        "address": "I 57, Champaign County, Illinois, United States",
+        "address": "Champaign County, Illinois",
         "raw_status": "GOING_TO_SLEEP"
       },
       "samples": [
         {
-          "lat": 40.21948603341977,
-          "lon": -88.20689431627592,
+          "lat": 40.22,
+          "lon": -88.21,
           "alt_ft": 728.3,
           "speed_kt": 51.3,
           "heading_deg": 216,
           "sats": 8,
           "battery_pct": 90,
           "signal_pct": 100.0,
-          "address": "I 57, Champaign County, Illinois, United States",
+          "address": "Champaign County, Illinois",
           "raw_status": "GOING_TO_SLEEP"
         }
       ],
@@ -40,15 +40,15 @@
       "max_speed_kt": 51.3,
       "end_reason": "tracker offline 60+ min or quiet",
       "end_fix": {
-        "lat": 39.296473532915115,
-        "lon": -87.98514488339424,
+        "lat": 39.3,
+        "lon": -87.99,
         "alt_ft": 643.0,
         "speed_kt": 0.0,
         "heading_deg": 0,
         "sats": 8,
         "battery_pct": 100,
         "signal_pct": 79.92,
-        "address": "671 East Jefferson Avenue, Casey, Clark County, Illinois 62420, United States",
+        "address": "Casey, Illinois",
         "raw_status": "POWERING_OFF",
         "fix_at": "2026-09-01T05:01:27Z"
       },
@@ -62,20 +62,20 @@
       "end": "2026-09-01T05:08:53.298Z",
       "duration_s": 3516,
       "start_fix": {
-        "lat": 39.37016423344612,
-        "lon": -87.98555636703968,
+        "lat": 39.37,
+        "lon": -87.99,
         "alt_ft": -6558.4,
         "speed_kt": 38.88,
         "heading_deg": 179,
         "sats": 8,
         "battery_pct": 80,
         "signal_pct": 93.24,
-        "address": "15383 IL 49, Clark County, Illinois 62420, United States",
+        "address": "Clark County, Illinois",
         "raw_status": "POWER_UP"
       },
       "end_fix": {
-        "lat": 39.296473532915115,
-        "lon": -87.98514488339424,
+        "lat": 39.3,
+        "lon": -87.99,
         "alt_ft": 643.0,
         "speed_kt": 0.0,
         "heading_deg": 0,
@@ -87,15 +87,15 @@
       },
       "samples": [
         {
-          "lat": 39.37016423344612,
-          "lon": -87.98555636703968,
+          "lat": 39.37,
+          "lon": -87.99,
           "alt_ft": -6558.4,
           "speed_kt": 38.88,
           "heading_deg": 179,
           "sats": 8,
           "battery_pct": 80,
           "signal_pct": 93.24,
-          "address": "15383 IL 49, Clark County, Illinois 62420, United States",
+          "address": "Clark County, Illinois",
           "raw_status": "POWER_UP"
         }
       ],
@@ -109,28 +109,28 @@
       "start": "2026-09-01T03:01:07.903Z",
       "end": "2026-09-01T05:01:27Z",
       "start_fix": {
-        "lat": 39.37016423344612,
-        "lon": -87.98555636703968,
+        "lat": 39.37,
+        "lon": -87.99,
         "alt_ft": -6558.4,
         "speed_kt": 38.88,
         "heading_deg": 179,
         "sats": 8,
         "battery_pct": 80,
         "signal_pct": 93.24,
-        "address": "15383 IL 49, Clark County, Illinois 62420, United States",
+        "address": "Clark County, Illinois",
         "raw_status": "POWER_UP"
       },
       "samples": [
         {
-          "lat": 39.37016423344612,
-          "lon": -87.98555636703968,
+          "lat": 39.37,
+          "lon": -87.99,
           "alt_ft": -6558.4,
           "speed_kt": 38.88,
           "heading_deg": 179,
           "sats": 8,
           "battery_pct": 80,
           "signal_pct": 93.24,
-          "address": "15383 IL 49, Clark County, Illinois 62420, United States",
+          "address": "Clark County, Illinois",
           "raw_status": "POWER_UP"
         }
       ],
@@ -138,15 +138,15 @@
       "max_speed_kt": 38.88,
       "end_reason": "tracker offline 60+ min or quiet",
       "end_fix": {
-        "lat": 39.296473532915115,
-        "lon": -87.98514488339424,
+        "lat": 39.3,
+        "lon": -87.99,
         "alt_ft": 643.0,
         "speed_kt": 0.0,
         "heading_deg": 0,
         "sats": 8,
         "battery_pct": 100,
         "signal_pct": 79.92,
-        "address": "671 East Jefferson Avenue, Casey, Clark County, Illinois 62420, United States",
+        "address": "Casey, Illinois",
         "raw_status": "POWERING_OFF",
         "fix_at": "2026-09-01T05:01:27Z"
       },
@@ -160,27 +160,27 @@
       "end": "2026-09-01T02:09:59.000Z",
       "end_reason": "tracker offline 60+ min",
       "start_fix": {
-        "lat": 39.48428901663671,
-        "lon": -88.26828429996968,
+        "lat": 39.48,
+        "lon": -88.27,
         "alt_ft": 662.7,
         "speed_kt": 40.5,
         "heading_deg": 90,
         "sats": 10,
         "battery_pct": 80,
         "signal_pct": 100.0,
-        "address": "10418 Illinois Route 16, Charleston, Coles County, Illinois 61938, United States",
+        "address": "Charleston, Illinois",
         "raw_status": "WAKING_UP"
       },
       "end_fix": {
-        "lat": 39.37016423344612,
-        "lon": -87.98555636703968,
+        "lat": 39.37,
+        "lon": -87.99,
         "alt_ft": -6558.4,
         "speed_kt": 38.88,
         "heading_deg": 179,
         "sats": 8,
         "battery_pct": 80,
         "signal_pct": 93.24,
-        "address": "15383 IL 49, Clark County, Illinois 62420, United States",
+        "address": "Clark County, Illinois",
         "raw_status": "POWER_UP"
       },
       "max_alt_ft": 662.7,
@@ -196,5 +196,6 @@
       "max_speed_kt": 48.06,
       "duration_s": 2785
     }
-  ]
+  ],
+  "location_precision": "city level: place names reduced to city/county and state; coordinates rounded to 0.01 degree"
 }
