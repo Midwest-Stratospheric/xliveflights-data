@@ -3,7 +3,7 @@
   "program": "Aerostratospheric",
   "kind": "past-flight-capture",
   "source": "xLiveFlights",
-  "updated_at": "2026-10-17T21:03:45Z",
+  "updated_at": "2026-10-17T23:05:43Z",
   "location_precision": "city level: place names reduced to city/county and state; coordinates rounded to 0.01 degree",
   "count": 5,
   "captures": [
