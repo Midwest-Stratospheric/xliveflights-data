@@ -4,6 +4,12 @@ Public archive for Aerostratospheric tracker sessions.
 
 The live desk at midwestsds.com starts a flight clock when tracker status changes from **likely not in flight** to **likely in flight**, and closes the clock when status falls back.
 
+## Operation Canis Major
+
+<img src="https://www.midwestsds.com/images/operation-canis-major-patch.png" alt="Operation Canis Major patch" width="120" align="right">
+
+This project is part of [Operation Canis Major](https://www.midwestsds.com/operation-canis-major.html), often called Project Canis: Aerostratospheric's mission objective to provide open stratospheric and atmospheric research and data, unrestricted, to the public. Learn more: https://www.midwestsds.com/operation-canis-major.html
+
 ## Files
 
 - `flights.json` — closed and open flights, newest first
