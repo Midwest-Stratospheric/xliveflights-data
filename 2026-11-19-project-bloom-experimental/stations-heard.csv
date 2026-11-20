@@ -1,0 +1,19 @@
+callsign,roles,packets,first_heard_ct,last_heard_ct,station_lat,station_lon,dist_from_launch_mi,bearing_from_launch,max_range_to_balloon_mi,source
+WX5II-11,SondeHub uploader; heard direct (path unused); iGate (in path),97,4:23:02 PM CT,6:35:08 PM CT,29.3837,-98.6482,100.1,218° SW,155,SondeHub raw
+K0MVH-2,SondeHub uploader; heard direct (path unused); iGate (in path),11,4:18:03 PM CT,6:27:09 PM CT,30.1995,-97.8090,25.4,205° SSW,80,SondeHub raw
+K5DAV-10,SondeHub uploader; iGate (in path),5,4:31:03 PM CT,5:51:03 PM CT,30.1150,-97.8535,31.8,205° SSW,65,SondeHub raw
+W5ROX-2,SondeHub uploader; heard direct (path unused); iGate (in path),5,4:17:03 PM CT,5:11:03 PM CT,30.5739,-97.4164,13.0,77° ENE,14,SondeHub raw
+K5VZC-1,SondeHub uploader; iGate (in path),4,5:09:03 PM CT,6:37:09 PM CT,32.4852,-95.8767,169.9,37° NE,156,SondeHub raw
+KA5WMY-5,SondeHub uploader; direct-heard (aprs.fi); heard direct (path unused); iGate (in path),4,6:32:09 PM CT,6:40:09 PM CT,30.1748,-96.9303,48.4,120° ESE,43,SondeHub raw; aprs.fi screenshot (relayed)
+K5RBC-10,SondeHub uploader; iGate (in path),3,5:12:03 PM CT,6:29:09 PM CT,29.0543,-95.5472,161.3,129° SE,151,SondeHub raw
+N5BDJ-11,SondeHub uploader; iGate (in path),3,6:39:09 PM CT,6:41:09 PM CT,30.0085,-95.6055,126.0,106° ESE,73,SondeHub raw
+WB5TZJ,SondeHub uploader; iGate (in path),2,5:24:02 PM CT,6:03:03 PM CT,29.3747,-100.8463,208.5,248° WSW,253,SondeHub raw
+K5WH-2,digipeater,1,6:41:09 PM CT,6:41:09 PM CT,,,,,,SondeHub raw
+KD5OXM-10,SondeHub uploader; iGate (in path),1,6:26:13 PM CT,6:26:13 PM CT,32.0267,-96.4938,123.1,33° NNE,93,SondeHub raw
+KI5DVG-10,SondeHub uploader; iGate (in path),1,5:23:03 PM CT,5:23:03 PM CT,31.0360,-97.4747,36.0,15° NNE,33,SondeHub raw
+W5KDP-10,SondeHub uploader; direct-heard (aprs.fi); iGate (in path),1,6:37:09 PM CT,6:37:09 PM CT,29.9883,-97.3027,42.3,153° SSE,67,SondeHub raw; aprs.fi screenshot (relayed)
+W5ZDN-15,SondeHub uploader; direct-heard (aprs.fi),1,6:41:09 PM CT,6:41:09 PM CT,,,,,,SondeHub raw; aprs.fi screenshot (relayed)
+WA5SON-2,digipeater; first RF hop,1,6:41:09 PM CT,6:41:09 PM CT,,,,,,SondeHub raw
+WB5RDD-1,SondeHub uploader; iGate (in path),1,6:31:09 PM CT,6:31:09 PM CT,33.5730,-95.6023,241.3,29° NNE,207,SondeHub raw
+WX5II-2,digipeater; first RF hop,1,4:47:04 PM CT,4:47:04 PM CT,,,,,,SondeHub raw
+XE2KK-10,SondeHub uploader; iGate (in path),1,4:47:04 PM CT,4:47:04 PM CT,26.8962,-101.4300,340.8,223° SW,344,SondeHub raw

@@ -1,0 +1,90 @@
+{
+  "title": "Tawhiri prediction summary",
+  "api": "https://api.v2.sondehub.org/tawhiri",
+  "dataset": "GFS 2026-11-19 12:00 UTC via SondeHub Tawhiri",
+  "dataset_iso": "2026-11-19T12:00:00Z",
+  "generated_at_utc": "2026-11-19T18:53:02.481466Z",
+  "generated_at_ct": "Thu Nov 19, 2026, 1:02 PM CT",
+  "notes": [
+    "The prediction assumed a 4:30 PM CT (22:30 UTC) launch. The flight launched earlier, about 4:16 PM CT (estimate 4:16:15 PM CT / 22:16:15 UTC).",
+    "Not available. Tawhiri served only the 2026-11-19 12:00 UTC GFS cycle; 06:00 and 18:00 UTC were requested and returned no matching dataset.",
+    "This file is a compact summary. It omits the full predicted latitude/longitude arrays from the original Tawhiri response."
+  ],
+  "intended_launch": {
+    "time_ct": "4:30:00 PM CT",
+    "time_utc": "2026-11-19T22:30:00Z",
+    "time_local_note": "Thursday, Nov 19, 2026, 4:30 PM America/Chicago (CST, UTC-6)",
+    "site": "Lone Star Aeronuts RC flying field, Old Settlers Park, Round Rock, TX",
+    "lat": 30.5320062,
+    "lon": -97.6288426,
+    "elevation_m": 200.427001953,
+    "address": "950 Harrell Pkwy / behind the East soccer parking lot, Old Settlers Park, Round Rock, TX 78665"
+  },
+  "assumptions": {
+    "profile": "standard_profile",
+    "ascent_rate_mps": 5.0,
+    "descent_rate_mps_sea_level": 5.0,
+    "burst_altitudes_m": [
+      25000,
+      30000,
+      33000
+    ],
+    "primary_burst_m": 30000
+  },
+  "nominal": {
+    "label": "Nominal (4:30 PM CT launch, 30 km burst, 5 m/s ascent, 5 m/s descent)",
+    "burst_time_ct": "Thu Nov 19, 6:09 PM CT",
+    "burst_datetime_utc": "2026-11-20T00:09:20.15625Z",
+    "burst_lat": 30.595569969913235,
+    "burst_lon": -96.87439835706402,
+    "burst_alt_m": 30001.18125,
+    "time_to_burst": "1 h 39 min",
+    "landing_time_ct": "Thu Nov 19, 6:55 PM CT",
+    "landing_datetime_utc": "2026-11-20T00:55:00Z",
+    "land_lat": 30.623122527791907,
+    "land_lon": -96.64097617007013,
+    "place": "near Farm-to-Market Road 1362, Caldwell (Burleson County, 77836)",
+    "flight_time": "2 h 25 min",
+    "flight_seconds": 8700.0,
+    "range_mi": 59.09968349841713,
+    "bearing_deg": 83.63390769230449,
+    "bearing_name": "E",
+    "landing_descent_display": "5.0 m/s (16 ft/s)"
+  },
+  "ensemble": {
+    "n_scenarios": 10,
+    "centroid_lat": 30.621133697618575,
+    "centroid_lon": -96.62113068568742,
+    "max_spread_mi": 35.37583424421366,
+    "farthest_pair": [
+      "B\u221215%",
+      "B+15%"
+    ],
+    "ranges": {
+      "burst_alt": "83,665\u2013113,193 ft (25.5\u201334.5 km)",
+      "max_alt": "83,665\u2013113,193 ft (25.5\u201334.5 km)",
+      "burst_time": "5:39 PM\u20137:09 PM CT",
+      "landing_time": "6:25 PM\u20137:54 PM CT",
+      "time_to_burst": "1 h 24 min\u20131 h 54 min",
+      "flight_time": "2 h 08 min\u20132 h 42 min",
+      "landing_descent": "4.0\u20136.0 m/s",
+      "range_mi": "47.2\u201381.9 mi"
+    },
+    "table_file": "tawhiri-ensemble-table.csv"
+  },
+  "comparison_to_flight": {
+    "burst_error_km": 13.616917899203436,
+    "burst_error_bearing_deg": 61.46959432817977,
+    "burst_alt_diff_m_actual_minus_predicted": -31.72124999999869,
+    "burst_time_diff_s_actual_minus_predicted": 101.84375,
+    "landing_error_km_vs_last_packet": 12.023642207881014,
+    "landing_error_km_vs_estimated_touchdown": 11.767348729284182,
+    "landing_error_bearing_deg": 54.12522381827438,
+    "landing_time_diff_s_actual_est_minus_predicted": -782.783233,
+    "launch_time_diff_s_actual_est_minus_assumed": -824.727207,
+    "flight_time_diff_s_actual_minus_predicted": 41.9439739999998,
+    "ascent_time_diff_s_actual_minus_predicted": 926.5709569999999,
+    "descent_time_diff_s_actual_minus_predicted": -884.6269830000001,
+    "note": "Actual launch was about 14 minutes earlier than the 4:30 PM CT assumption, average ascent was slower than 5 m/s (about 4.32 m/s), and average descent was much faster than 5 m/s (about 16.1 m/s). Burst altitude was close to the 30 km assumption (actual 29,969 m)."
+  }
+}

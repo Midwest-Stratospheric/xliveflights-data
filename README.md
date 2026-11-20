@@ -15,12 +15,13 @@ This project is part of [Operation Canis Major](https://www.midwestsds.com/opera
 - `flights.json` — closed and open flights, newest first
 - `live.json` — current session pointer (null when no clock is running)
 - `schema.json` — field list for each flight package
+- `2026-11-19-project-bloom-experimental/` — Project Bloom Experimental flight archive (19 Nov 2026, KE9CFY-11)
 
 Live page feed:
 `https://raw.githubusercontent.com/Midwest-Stratospheric/xliveflights-data/main/flights.json`
 
 ## Flown archive and collaboration
 
-Flown so far: the Sep 12, 2026 x1Albatross envelope check (burst 59,000 ft) and the Sep 19, 2026 X2Griffon maiden flight (burst 90,356 ft). Full records: https://www.midwestsds.com/flights.html. Launches are private science missions; the archive and data are public, and flight products also appear on xDataHub, our public open atmospheric data dashboard: https://www.midwestsds.com/msds-data-hub.html
+Flown so far: the Sep 12, 2026 x1Albatross envelope check (burst 59,000 ft), the Sep 19, 2026 X2Griffon maiden flight (burst 90,356 ft), and the Nov 19, 2026 Project Bloom Experimental flight from Round Rock, Texas (burst 98,325 ft). Full records: https://www.midwestsds.com/flights.html. Project Bloom Experimental open data: [`2026-11-19-project-bloom-experimental/`](2026-11-19-project-bloom-experimental/) and https://www.midwestsds.com/project-bloom-experimental.html. Launches are private science missions; the archive and data are public, and flight products also appear on xDataHub, our public open atmospheric data dashboard: https://www.midwestsds.com/msds-data-hub.html
 
 Tracking and data folks who want to collaborate can email space@aerostratospheric.com or book a 15 minute intro at https://calendly.com/aerostratospheric/15min

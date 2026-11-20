@@ -1,0 +1,238 @@
+{
+  "dataset": "Aerostratospheric flight product",
+  "license": "CC BY 4.0",
+  "attribution": "Aerostratospheric",
+  "id": "2026-11-19-project-bloom-experimental",
+  "title": "Project Bloom Experimental",
+  "date": "2026-11-19",
+  "page": "https://www.midwestsds.com/project-bloom-experimental.html",
+  "callsign": "KE9CFY-11",
+  "tracker_model": "StratoTrack (per SondeHub decode)",
+  "telemetry_source": "SondeHub amateur telemetry API (APRS-IS gateway)",
+  "payload": "Bloom Sparkling Energy Crisp Apple can",
+  "headline": {
+    "date": "2026-11-19",
+    "launch_site": "Old Settlers Park RC field, Round Rock, Texas",
+    "aprs_callsign": "KE9CFY-11",
+    "payload": "Bloom Sparkling Energy Crisp Apple can",
+    "launch_ct": "about 4:16 PM CT",
+    "launch_est_ct": "4:16:15 PM CT",
+    "launch_est_utc": "2026-11-19T22:16:15.272793Z",
+    "burst_alt_ft": 98325,
+    "burst_ct": "6:11:02 PM CT",
+    "burst_utc": "2026-11-20T00:11:02Z",
+    "burst_lat": 30.654,
+    "burst_lon": -96.74933,
+    "last_packet_ct": "6:41:09 PM CT",
+    "last_packet_utc": "2026-11-20T00:41:09Z",
+    "last_packet_alt_ft": 2185,
+    "last_packet_lat": 30.68533,
+    "last_packet_lon": -96.53817,
+    "flight_time": "2 h 25 m 42 s",
+    "flight_time_s": 8742,
+    "stations_heard": 18,
+    "spot_stop_lat": 30.67436,
+    "spot_stop_lon": -96.58609,
+    "spot_stop_ct": "6:42:28 PM CT",
+    "spot_stop_utc": "2026-11-20T00:42:28Z"
+  },
+  "launch": {
+    "name": "Old Settlers Park RC field, Round Rock, Texas",
+    "site_detail": "Lone Star Aeronuts RC flying field, Old Settlers Park, Round Rock, TX",
+    "lat": 30.5320062,
+    "lon": -97.6288426,
+    "elevation_m": 200.427,
+    "address": "950 Harrell Pkwy / behind the East soccer parking lot, Old Settlers Park, Round Rock, TX 78665",
+    "estimate_ct": "4:16:15 PM CT",
+    "estimate_utc": "2026-11-19T22:16:15.272793Z",
+    "first_packet_ct": "4:17:03 PM CT",
+    "first_packet_utc": "2026-11-19T22:17:03Z",
+    "first_packet_lat": 30.5325,
+    "first_packet_lon": -97.62966666666667,
+    "first_packet_alt_m": 358.74960000000004
+  },
+  "burst": {
+    "time_ct": "6:11:02 PM CT",
+    "time_utc": "2026-11-20T00:11:02Z",
+    "lat": 30.654,
+    "lon": -96.74933333333334,
+    "alt_m": 29969.460000000003,
+    "alt_ft": 98325.0031464,
+    "alt_ft_rounded": 98325,
+    "dist_from_launch_km": 85.26982343651687,
+    "bearing_from_launch_deg": 80.62263080967045,
+    "next_packet_ct": "6:12:02 PM CT",
+    "next_packet_alt_m": 28674.364800000003
+  },
+  "last_packet": {
+    "time_ct": "6:41:09 PM CT",
+    "time_utc": "2026-11-20T00:41:09Z",
+    "lat": 30.685333333333332,
+    "lon": -96.53816666666667,
+    "alt_m": 665.988,
+    "alt_ft": 2185,
+    "dist_from_launch_km": 105.76232243833128,
+    "bearing_from_launch_deg": 80.44590205798272,
+    "nearest_place": "Sandy Point Rd near Mudville, west of Bryan, Brazos County, TX 77807"
+  },
+  "landing_estimate": {
+    "time_ct": "6:41:57 PM CT",
+    "time_utc": "2026-11-20T00:41:57.216767Z",
+    "lat": 30.68510028788477,
+    "lon": -96.54126407891022,
+    "ground_elev_m": 74.7,
+    "final_descent_mps": 12.263119999999999,
+    "seconds_after_last_packet": 48.21676702176934,
+    "dist_from_launch_km": 105.46572406948563,
+    "bearing_from_launch_deg": 80.43463536383035,
+    "note": "Extrapolated from the last two APRS packets down to ground elevation at the last-known point. Not a recovered-landing survey."
+  },
+  "spot_trace": {
+    "fix_type": "STOP",
+    "time_ct": "6:42:28 PM CT",
+    "time_utc": "2026-11-20T00:42:28Z",
+    "lat": 30.67436,
+    "lon": -96.58609,
+    "elev_m": 84.673927307,
+    "place": "77836, Caldwell, TX, USA",
+    "distance_from_aprs_last_packet_km": 4.742621919092904,
+    "distance_from_aprs_land_estimate_km": 4.450015808099432,
+    "file": "spot-trace-fixes.csv",
+    "note": "Only the STOP / recovery fix was present in the source archive."
+  },
+  "timing": {
+    "ascent_s": 6886.727207,
+    "descent_s": 1855.216767,
+    "total_s_launch_est_to_touchdown_est": 8741.943974,
+    "tracked_s_first_to_last_packet": 8646.0,
+    "flight_time_display": "2 h 25 m 42 s"
+  },
+  "rates": {
+    "avg_ascent_mps": 4.322667662767494,
+    "avg_ascent_tracked_mps": 4.329684222839597,
+    "max_ascent_mps": 5.532120000000002,
+    "max_ascent_ct": "4:21:03 PM CT",
+    "avg_descent_mps": 16.113890587751467,
+    "max_descent_mps": 39.68496000000002,
+    "max_descent_ct": "6:13:02 PM CT",
+    "max_speed_kt": 64,
+    "max_speed_kmh": 118.528,
+    "max_speed_mph": 73.64992,
+    "max_speed_ct": "6:11:02 PM CT",
+    "max_speed_alt_m": 29969.460000000003,
+    "max_calculated_ground_speed_kmh": 111.5186946911196,
+    "max_calculated_ground_speed_ct": "6:08:02 PM CT"
+  },
+  "environment": {
+    "min_temp_c": -54.0,
+    "min_temp_ct": "6:25:09 PM CT",
+    "max_temp_c": 22.0,
+    "min_pressure_hpa": 10.17,
+    "battery_start_v": 1.66,
+    "battery_min_v": 1.3,
+    "battery_end_v": 1.6
+  },
+  "packets": {
+    "raw": 136,
+    "unique": 134,
+    "duplicates_removed": 2,
+    "csv_rows": 134,
+    "file": "project-bloom-experimental-KE9CFY-11-packets.csv",
+    "frame_reset": "frame 145 -> 9",
+    "gaps": [
+      {
+        "from_ct": "5:59:02 PM CT",
+        "to_ct": "6:01:02 PM CT",
+        "duration_s": 120.0
+      },
+      {
+        "from_ct": "6:15:02 PM CT",
+        "to_ct": "6:25:09 PM CT",
+        "duration_s": 607.0
+      },
+      {
+        "from_ct": "6:37:09 PM CT",
+        "to_ct": "6:39:09 PM CT",
+        "duration_s": 120.0
+      }
+    ],
+    "flagged": [
+      {
+        "time_ct": "6:25:09 PM CT",
+        "note": "low-sat fix (2 sats), speed unreliable; pressure reading inconsistent with altitude"
+      },
+      {
+        "time_ct": "6:27:09 PM CT",
+        "note": "pressure reading inconsistent with altitude"
+      },
+      {
+        "time_ct": "6:28:12 PM CT",
+        "note": "pressure reading inconsistent with altitude"
+      },
+      {
+        "time_ct": "6:29:09 PM CT",
+        "note": "pressure reading inconsistent with altitude"
+      }
+    ]
+  },
+  "stations": {
+    "heard": 18,
+    "file": "stations-heard.csv",
+    "igates_in_packet_column": [
+      "K0MVH-2",
+      "K5DAV-10",
+      "K5RBC-10",
+      "K5VZC-1",
+      "KA5WMY-5",
+      "KD5OXM-10",
+      "KI5DVG-10",
+      "N5BDJ-11",
+      "W5KDP-10",
+      "W5ROX-2",
+      "WB5RDD-1",
+      "WB5TZJ",
+      "WX5II-11"
+    ]
+  },
+  "prediction_file": "tawhiri-prediction-summary.json",
+  "cross_check": {
+    "method": "Compared the published headline numbers to project-bloom-experimental-KE9CFY-11-packets.csv, stations-heard.csv, summary.json, and spot.json. Source files were not changed.",
+    "results": [
+      {
+        "fact": "Launch about 4:16 PM CT",
+        "status": "match",
+        "detail": "summary.json launch estimate is 4:16:15 PM CT (2026-11-19T22:16:15.272793Z), extrapolated from the first packets down to pad elevation 200.427 m. First APRS packet is 4:17:03 PM CT (2026-11-19T22:17:03Z) at 1177 ft, 30.53250, -97.62967."
+      },
+      {
+        "fact": "Burst 98,325 ft at 6:11:02 PM CT at 30.65400, -96.74933",
+        "status": "match",
+        "detail": "Maximum alt_ft in the packet CSV is 98325 at 6:11:02 PM CT (2026-11-20T00:11:02Z), lat 30.65400, lon -96.74933. summary.json burst_alt_ft is 98325.0031464 (unrounded), burst_lat 30.654, burst_lon -96.74933333333334."
+      },
+      {
+        "fact": "Last packet 6:41:09 PM CT at 2,185 ft, 30.68533, -96.53817",
+        "status": "match",
+        "detail": "Last CSV row: 6:41:09 PM CT (2026-11-20T00:41:09Z), alt_ft 2185, lat 30.68533, lon -96.53817."
+      },
+      {
+        "fact": "Flight time 2 h 25 m 42 s",
+        "status": "match",
+        "detail": "summary.json total_s (launch estimate to estimated touchdown) is 8741.943974, which rounds to 8742 s = 2 h 25 min 42 s. Tracked interval from first to last packet is 8646.0 s (2 h 24 min 06 s)."
+      },
+      {
+        "fact": "18 stations heard",
+        "status": "match",
+        "detail": "stations-heard.csv has 18 unique callsigns (iGates, digipeaters, and aprs.fi-heard stations). summary.json igates lists 13 unique iGates from the packet igate column only, which is expected to be a subset."
+      },
+      {
+        "fact": "SPOT stop fix 30.67436, -96.58609 at 6:42:28 PM CT",
+        "status": "match",
+        "detail": "spot.json lat 30.67436, lon -96.58609, time_ct 6:42:28 PM CT. UTC 2026-11-20T00:42:28Z is 6:42:28 PM America/Chicago (UTC-6, CST) on 19 Nov 2026. Only this STOP fix was in the source archive; no full SPOT breadcrumb CSV was present."
+      },
+      {
+        "fact": "Packet counts",
+        "status": "note",
+        "detail": "summary.json reports packets_raw 136, packets_unique 134, duplicates_removed 2. The published packet CSV has 134 unique rows (header plus 134 records)."
+      }
+    ]
+  }
+}
