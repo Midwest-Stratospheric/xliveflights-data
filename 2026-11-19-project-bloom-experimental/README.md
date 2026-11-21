@@ -1,8 +1,8 @@
-# Project Bloom Experimental — 19 November 2026
+# Project B. Experimental — 19 November 2026
 
-Open flight data from **Aerostratospheric** for the Project Bloom Experimental high-altitude balloon flight.
+Open flight data from **Aerostratospheric** for the Project B. Experimental high-altitude balloon flight.
 
-The balloon was launched from the Old Settlers Park RC field in Round Rock, Texas, on 19 November 2026. The APRS callsign was **KE9CFY-11**. The payload was a Bloom Sparkling Energy Crisp Apple can.
+The balloon was launched from the Old Settlers Park RC field in Round Rock, Texas, on 19 November 2026. The APRS callsign was **KE9CFY-11**. The payload was an energy drink can.
 
 Mission page: https://www.midwestsds.com/project-bloom-experimental.html
 
@@ -80,7 +80,7 @@ Eighteen unique callsigns are listed. The `igates` list in `flight-summary.json`
 
 ## SPOT Trace fixes
 
-`spot-trace-fixes.csv` has one row: the SPOT Trace STOP fix at 6:42:28 PM CT (2026-11-20T00:42:28Z), 30.67436, -96.58609, near Caldwell, Texas (ZIP 77836). Extra columns give distance and bearing from the last APRS packet, the estimated touchdown, the predicted landing, and the launch field.
+`spot-trace-fixes.csv` has one row: the SPOT Trace STOP fix at 6:42:28 PM CT (2026-11-20T00:42:28Z), 30.67436, -96.58609, west of Bryan, TX (ZIP 77836). Extra columns give distance and bearing from the last APRS packet, the estimated touchdown, the predicted landing, and the launch field.
 
 A full SPOT breadcrumb trace was not in the local source folder, so it is not invented here.
 
@@ -88,7 +88,7 @@ A full SPOT breadcrumb trace was not in the local source folder, so it is not in
 
 Pre-flight predictions used the [SondeHub Tawhiri](https://api.v2.sondehub.org/tawhiri) API with the **GFS 19 November 2026 12:00 UTC** cycle. Earlier and later GFS cycles were requested and were not available from Tawhiri at run time.
 
-The nominal run assumed a **4:30 PM CT** launch, a **30 km** burst, and **5 m/s** ascent and sea-level descent. Under those assumptions Tawhiri put burst at 6:09:20 PM CT near 30.59557, -96.87440 and landing at 6:55:00 PM CT near 30.62312, -96.64098 (about 59 miles east of launch, near FM 1362, Caldwell, Burleson County).
+The nominal run assumed a **4:30 PM CT** launch, a **30 km** burst, and **5 m/s** ascent and sea-level descent. Under those assumptions Tawhiri put burst at 6:09:20 PM CT near 30.59557, -96.87440 and landing at 6:55:00 PM CT near 30.62312, -96.64098 (about 59 miles east of launch, near FM 1362, west of Bryan, TX, in Burleson County).
 
 The flight launched about 14 minutes earlier than that assumption, rose more slowly than 5 m/s, and descended much faster than 5 m/s. Burst altitude was close to 30 km (29,969 m). Burst and landing were on the order of 12–14 km from the nominal predicted points. Details are in `tawhiri-prediction-summary.json` and `tawhiri-ensemble-table.csv`.
 

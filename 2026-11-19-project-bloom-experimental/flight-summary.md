@@ -1,9 +1,9 @@
-# Project Bloom Experimental — flight summary
+# Project B. Experimental — flight summary
 
 **Date:** 19 November 2026
 **Launch site:** Old Settlers Park RC field, Round Rock, Texas
 **APRS callsign:** KE9CFY-11
-**Payload:** Bloom Sparkling Energy Crisp Apple can
+**Payload:** Energy drink can
 **Mission page:** https://www.midwestsds.com/project-bloom-experimental.html
 
 Times below are given in America/Chicago (CT, UTC-6 / CST on this date) and in UTC, matching the source files.
@@ -21,7 +21,7 @@ Times below are given in America/Chicago (CT, UTC-6 / CST on this date) and in U
 - **Stations heard:** 18 (see `stations-heard.csv`).
 - **Telemetry source:** SondeHub amateur telemetry API (APRS-IS gateway). Tracker model: StratoTrack (per SondeHub decode).
 - **Last-packet area:** Sandy Point Rd near Mudville, west of Bryan, Brazos County, TX 77807.
-- **SPOT STOP place:** 77836, Caldwell, TX, USA, 4.74 km WSW of the last APRS packet.
+- **SPOT STOP place:** 77836, west of Bryan, TX, USA, 4.74 km WSW of the last APRS packet.
 
 Average ascent was about 4.32 m/s. Average descent was about 16.11 m/s. Minimum tracker temperature was -54 °C at 6:25:09 PM CT. Maximum reported speed was 64 kt (73.6 mph) at burst.
 
