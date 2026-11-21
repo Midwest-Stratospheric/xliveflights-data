@@ -1,0 +1,18 @@
+file,file_type,mime_type,bytes,width_px,height_px,duration_s,frame_rate,video_codec,create_date_utc,camera_make,gps_latitude,gps_longitude,gps_altitude_m,sha256
+media/bloom-90k-insta360.jpg,JPEG,image/jpeg,130459,1600,900,,,,,,,,,0a86eb2f419e41affc426c26dd170f7a595dd3fa7d1fa98c7aada538eb10abda
+media/bloom-90k-insta360.webp,WEBP,image/webp,36856,1600,900,,,,,,,,,0fc7a694f66c7d4f62e910b1034f279f67cbd2ee8408b2cadc89352ddb56124a
+media/og-bloom-90k-20261120.jpg,JPEG,image/jpeg,76509,1200,630,,,,,,,,,8e42d70ce0a1fc156e373adf54be05ec37fa0b22c17a8bed85cdaa034f08c2a8
+media/og-energy-can-90k-20261120b.jpg,JPEG,image/jpeg,76509,1200,630,,,,,,,,,8e42d70ce0a1fc156e373adf54be05ec37fa0b22c17a8bed85cdaa034f08c2a8
+media/prototype-arm-test-poster.jpg,JPEG,image/jpeg,220135,720,1280,,,,,,,,,7789d18ecfa132ffca1b2df5839bcc6ed3f281434afbccdf65851ac167d72cbd
+media/prototype-arm-test.mp4,MP4,video/mp4,4059890,540,960,14.749,29.97002997003,avc1,,,,,,59454b38ffb6987db7243f14185ef3965a09a0fdc8ac36ff062c833d32adf55e
+media/recovery-brush.jpg,JPEG,image/jpeg,368544,1200,900,,,,,,,,,4f4576e0358ea76fee56473caab0864f78240fe45fa1a33e8d01c000a45be749
+media/recovery-brush.webp,WEBP,image/webp,310484,1200,900,,,,,,,,,e601664280db482d60964e6f7c12923e17a586dc16a8f11097f5ac794b9f3cc8
+media/recovery-payload-ring.jpg,JPEG,image/jpeg,649454,1200,1600,,,,,,,,,bbaf88228beb70d996406c08760a33897bd258c595ba69cd0bd9bc813fd7c332
+media/recovery-payload-ring.webp,WEBP,image/webp,542036,1200,1600,,,,,,,,,4f67a74ac45816ae9b613f613c947e0a17d17ca5c1e50c232efb8a9b7cff34fd
+media/recovery-road.jpg,JPEG,image/jpeg,444912,1200,1600,,,,,,,,,ac049576807739f1af891e8a9fdf4bfcb1b15347ebce8bfb86e73ffad3c26bb2
+media/recovery-road.webp,WEBP,image/webp,330364,1200,1600,,,,,,,,,a774295c8452ac81ee873bf88dfdc55208d5dfae759e88a79fd1a932d4c89f66
+media/recovery-selfie.jpg,JPEG,image/jpeg,485973,1200,1600,,,,,,,,,f08fae9c8bc887ce57ee089148e7b15da2907ab066b0bfe29d8b19e0bafc1ea7
+media/recovery-selfie.webp,WEBP,image/webp,355170,1200,1600,,,,,,,,,283f321a54d6cc147ce7a70239702a13601ff5f0f6890bb3d66ef20cd736a31e
+media/stratotrack-tracker.jpg,JPEG,image/jpeg,166134,1200,1600,,,,,,,,,c1c78091683c177ecc9e1999c6887cae2b75350a8a2b34c3a20f2b8fa7ce8d94
+media/stratotrack-tracker.webp,WEBP,image/webp,64106,1200,1600,,,,,,,,,982e21889db1bba6ed47e8e62f5836e67358aea5f12c59cde1f51b475ca1a56d
+inputs/video3.mp4,MP4,video/mp4,3484248,720,1280,14.7483333333333,29.9694880777489,hvc1,2026:11:20 05:59:48,,,,,ceb32691e7b4ee1f1b2eb0e19253db1233970cf4dc9af4299873fa859ae46bdf
