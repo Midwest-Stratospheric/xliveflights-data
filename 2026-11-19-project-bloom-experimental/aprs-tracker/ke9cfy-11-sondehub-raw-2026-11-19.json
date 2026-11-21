@@ -1,0 +1,3830 @@
+{
+ "KE9CFY-11": {
+  "2026-11-19T22:17:03.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "8d0f6c2",
+   "uploader_callsign": "W5ROX-2",
+   "path": "WIDE1-1,WIDE2-2,qAR,W5ROX-2",
+   "time_received": "2026-11-19T22:17:03.179243Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:17:03.179218Z",
+   "lat": 30.5325,
+   "lon": -97.62966666666667,
+   "alt": 358.74960000000004,
+   "comment": ",StrTrk,27,9,1.66V,22C,98162Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE1-1,WIDE2-2,qAR,W5ROX-2:!3031.95N/09737.78WO337/001/A=001177,StrTrk,27,9,1.66V,22C,98162Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 27,
+   "sats": 9,
+   "batt": 1.66,
+   "temp": 22.0,
+   "ext_pressure": 981.62,
+   "position": "30.5325,-97.62966666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "W5ROX-2"
+    }
+   ]
+  },
+  "2026-11-19T22:18:03.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "8d0f6c2",
+   "uploader_callsign": "K0MVH-2",
+   "path": "WIDE1-1,WIDE2-2,qAR,K0MVH-2",
+   "time_received": "2026-11-19T22:18:03.164665Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:18:03.164641Z",
+   "lat": 30.533333333333335,
+   "lon": -97.63116666666667,
+   "alt": 557.784,
+   "comment": ",StrTrk,28,9,1.65V,21C,95892Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE1-1,WIDE2-2,qAR,K0MVH-2:!3032.00N/09737.87WO287/007/A=001830,StrTrk,28,9,1.65V,21C,95892Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 28,
+   "sats": 9,
+   "batt": 1.65,
+   "temp": 21.0,
+   "ext_pressure": 958.92,
+   "position": "30.533333333333335,-97.63116666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "K0MVH-2"
+    }
+   ]
+  },
+  "2026-11-19T22:19:03.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "8d0f6c2",
+   "uploader_callsign": "K0MVH-2",
+   "path": "WIDE1-1,WIDE2-2,qAR,K0MVH-2",
+   "time_received": "2026-11-19T22:19:03.163987Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:19:03.163961Z",
+   "lat": 30.534,
+   "lon": -97.63266666666667,
+   "alt": 854.964,
+   "comment": ",StrTrk,29,9,1.64V,20C,92621Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE1-1,WIDE2-2,qAR,K0MVH-2:!3032.04N/09737.96WO322/007/A=002805,StrTrk,29,9,1.64V,20C,92621Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 29,
+   "sats": 9,
+   "batt": 1.64,
+   "temp": 20.0,
+   "ext_pressure": 926.21,
+   "position": "30.534,-97.63266666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "K0MVH-2"
+    }
+   ]
+  },
+  "2026-11-19T22:20:03.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "8d0f6c2",
+   "uploader_callsign": "K0MVH-2",
+   "path": "WIDE1-1,WIDE2-2,qAR,K0MVH-2",
+   "time_received": "2026-11-19T22:20:03.137007Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:20:03.136983Z",
+   "lat": 30.534833333333335,
+   "lon": -97.6345,
+   "alt": 1150.9248,
+   "comment": ",StrTrk,30,9,1.64V,18C,89403Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE1-1,WIDE2-2,qAR,K0MVH-2:!3032.09N/09738.07WO273/006/A=003776,StrTrk,30,9,1.64V,18C,89403Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 30,
+   "sats": 9,
+   "batt": 1.64,
+   "temp": 18.0,
+   "ext_pressure": 894.03,
+   "position": "30.534833333333335,-97.6345",
+   "uploaders": [
+    {
+     "uploader_callsign": "K0MVH-2"
+    }
+   ]
+  },
+  "2026-11-19T22:21:03.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "8d0f6c2",
+   "uploader_callsign": "W5ROX-2",
+   "path": "WIDE1-1,WIDE2-2,qAR,W5ROX-2",
+   "time_received": "2026-11-19T22:21:03.160946Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:21:03.160921Z",
+   "lat": 30.536166666666666,
+   "lon": -97.63633333333334,
+   "alt": 1482.852,
+   "comment": ",StrTrk,31,9,1.64V,16C,85975Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE1-1,WIDE2-2,qAR,W5ROX-2:!3032.17N/09738.18WO291/014/A=004865,StrTrk,31,9,1.64V,16C,85975Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 31,
+   "sats": 9,
+   "batt": 1.64,
+   "temp": 16.0,
+   "ext_pressure": 859.75,
+   "position": "30.536166666666666,-97.63633333333334",
+   "uploaders": [
+    {
+     "uploader_callsign": "W5ROX-2"
+    }
+   ]
+  },
+  "2026-11-19T22:22:03.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "8d0f6c2",
+   "uploader_callsign": "K0MVH-2",
+   "path": "WIDE1-1,WIDE2-2,qAR,K0MVH-2",
+   "time_received": "2026-11-19T22:22:03.150021Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:22:03.149995Z",
+   "lat": 30.537333333333333,
+   "lon": -97.6395,
+   "alt": 1776.9840000000002,
+   "comment": ",StrTrk,32,9,1.64V,14C,82984Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE1-1,WIDE2-2,qAR,K0MVH-2:!3032.24N/09738.37WO270/011/A=005830,StrTrk,32,9,1.64V,14C,82984Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 32,
+   "sats": 9,
+   "batt": 1.64,
+   "temp": 14.0,
+   "ext_pressure": 829.84,
+   "position": "30.537333333333333,-97.6395",
+   "uploaders": [
+    {
+     "uploader_callsign": "K0MVH-2"
+    }
+   ]
+  },
+  "2026-11-19T22:23:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "8d0f6c2",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE1-1,WIDE2-2,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:23:02.984848Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:23:02.984822Z",
+   "lat": 30.53783333333333,
+   "lon": -97.64183333333334,
+   "alt": 2054.0472,
+   "comment": ",StrTrk,33,9,1.63V,15C,80297Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE1-1,WIDE2-2,qAR,WX5II-11:!3032.27N/09738.51WO242/009/A=006739,StrTrk,33,9,1.63V,15C,80297Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 33,
+   "sats": 9,
+   "batt": 1.63,
+   "temp": 15.0,
+   "ext_pressure": 802.97,
+   "position": "30.53783333333333,-97.64183333333334",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:24:03.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "8d0f6c2",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE1-1,WIDE2-2,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:24:03.010787Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:24:03.010753Z",
+   "lat": 30.537,
+   "lon": -97.64466666666667,
+   "alt": 2332.9392000000003,
+   "comment": ",StrTrk,34,9,1.62V,15C,77643Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE1-1,WIDE2-2,qAR,WX5II-11:!3032.22N/09738.68WO273/014/A=007654,StrTrk,34,9,1.62V,15C,77643Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 34,
+   "sats": 9,
+   "batt": 1.62,
+   "temp": 15.0,
+   "ext_pressure": 776.43,
+   "position": "30.537,-97.64466666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:25:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "8d0f6c2",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-2,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:25:02.937279Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:25:02.937255Z",
+   "lat": 30.536666666666665,
+   "lon": -97.64783333333334,
+   "alt": 2617.9272,
+   "comment": ",StrTrk,35,9,1.63V,15C,75071Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-2,qAR,WX5II-11:!3032.20N/09738.87WO248/013/A=008589,StrTrk,35,9,1.63V,15C,75071Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 35,
+   "sats": 9,
+   "batt": 1.63,
+   "temp": 15.0,
+   "ext_pressure": 750.71,
+   "position": "30.536666666666665,-97.64783333333334",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:26:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "8d0f6c2",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-2,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:26:02.932678Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:26:02.932654Z",
+   "lat": 30.535166666666665,
+   "lon": -97.65033333333334,
+   "alt": 2881.884,
+   "comment": ",StrTrk,36,9,1.62V,14C,72711Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-2,qAR,WX5II-11:!3032.11N/09739.02WO221/011/A=009455,StrTrk,36,9,1.62V,14C,72711Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 36,
+   "sats": 9,
+   "batt": 1.62,
+   "temp": 14.0,
+   "ext_pressure": 727.11,
+   "position": "30.535166666666665,-97.65033333333334",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:27:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "8d0f6c2",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-2,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:27:02.944855Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:27:02.944831Z",
+   "lat": 30.5335,
+   "lon": -97.65216666666667,
+   "alt": 3143.0976,
+   "comment": ",StrTrk,37,9,1.62V,12C,70485Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-2,qAR,WX5II-11:!3032.01N/09739.13WO190/011/A=010312,StrTrk,37,9,1.62V,12C,70485Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 37,
+   "sats": 9,
+   "batt": 1.62,
+   "temp": 12.0,
+   "ext_pressure": 704.85,
+   "position": "30.5335,-97.65216666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:28:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "8d0f6c2",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-2,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:28:02.932770Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:28:02.932747Z",
+   "lat": 30.530333333333335,
+   "lon": -97.65183333333333,
+   "alt": 3425.952,
+   "comment": ",StrTrk,38,9,1.61V,10C,68091Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-2,qAR,WX5II-11:!3031.82N/09739.11WO167/018/A=011240,StrTrk,38,9,1.61V,10C,68091Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 38,
+   "sats": 9,
+   "batt": 1.61,
+   "temp": 10.0,
+   "ext_pressure": 680.91,
+   "position": "30.530333333333335,-97.65183333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:29:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "8d0f6c2",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-2,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:29:02.932430Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:29:02.932406Z",
+   "lat": 30.527,
+   "lon": -97.65033333333334,
+   "alt": 3673.1448,
+   "comment": ",StrTrk,39,9,1.61V,09C,66061Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-2,qAR,WX5II-11:!3031.62N/09739.02WO178/007/A=012051,StrTrk,39,9,1.61V,09C,66061Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 39,
+   "sats": 9,
+   "batt": 1.61,
+   "temp": 9.0,
+   "ext_pressure": 660.61,
+   "position": "30.527,-97.65033333333334",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:29:03.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "25ff35e",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-2,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:29:03.113524Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:29:03.113503Z",
+   "lat": 30.527,
+   "lon": -97.65033333333334,
+   "alt": 3673.1448,
+   "comment": ",StrTrk,39,9,1.61V,09C,66061Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-2,qAR,WX5II-11:!3031.62N/09739.02WO178/007/A=012051,StrTrk,39,9,1.61V,09C,66061Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 39,
+   "sats": 9,
+   "batt": 1.61,
+   "temp": 9.0,
+   "ext_pressure": 660.61,
+   "position": "30.527,-97.65033333333334",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:30:03.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "8d0f6c2",
+   "uploader_callsign": "K0MVH-2",
+   "path": "WIDE2-2,qAR,K0MVH-2",
+   "time_received": "2026-11-19T22:30:03.101323Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:30:03.101298Z",
+   "lat": 30.525833333333335,
+   "lon": -97.64883333333333,
+   "alt": 3912.108,
+   "comment": ",StrTrk,40,9,1.60V,8C,64098Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-2,qAR,K0MVH-2:!3031.55N/09738.93WO112/009/A=012835,StrTrk,40,9,1.60V,8C,64098Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 40,
+   "sats": 9,
+   "batt": 1.6,
+   "temp": 8.0,
+   "ext_pressure": 640.98,
+   "position": "30.525833333333335,-97.64883333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "K0MVH-2"
+    }
+   ]
+  },
+  "2026-11-19T22:31:03.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "8d0f6c2",
+   "uploader_callsign": "K5DAV-10",
+   "path": "WIDE2-1,qAR,K5DAV-10",
+   "time_received": "2026-11-19T22:31:03.106102Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:31:03.106078Z",
+   "lat": 30.526,
+   "lon": -97.64666666666666,
+   "alt": 4219.956,
+   "comment": ",StrTrk,41,9,1.60V,6C,61740Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,K5DAV-10:!3031.56N/09738.80WO068/007/A=013845,StrTrk,41,9,1.60V,6C,61740Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 41,
+   "sats": 9,
+   "batt": 1.6,
+   "temp": 6.0,
+   "ext_pressure": 617.4,
+   "position": "30.526,-97.64666666666666",
+   "uploaders": [
+    {
+     "uploader_callsign": "K5DAV-10"
+    },
+    {
+     "uploader_callsign": "W5ROX-2"
+    }
+   ]
+  },
+  "2026-11-19T22:32:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "8d0f6c2",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:32:02.932284Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:32:02.932258Z",
+   "lat": 30.527333333333335,
+   "lon": -97.64466666666667,
+   "alt": 4500.0672,
+   "comment": ",StrTrk,42,9,1.60V,5C,59628Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3031.64N/09738.68WO020/005/A=014764,StrTrk,42,9,1.60V,5C,59628Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 42,
+   "sats": 9,
+   "batt": 1.6,
+   "temp": 5.0,
+   "ext_pressure": 596.28,
+   "position": "30.527333333333335,-97.64466666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    },
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:33:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:33:02.918966Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:33:02.918934Z",
+   "lat": 30.528833333333335,
+   "lon": -97.64316666666667,
+   "alt": 4760.976000000001,
+   "comment": ",StrTrk,43,9,1.59V,3C,57675Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3031.73N/09738.59WO075/007/A=015620,StrTrk,43,9,1.59V,3C,57675Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 43,
+   "sats": 9,
+   "batt": 1.59,
+   "temp": 3.0,
+   "ext_pressure": 576.75,
+   "position": "30.528833333333335,-97.64316666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:34:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:34:02.950759Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:34:02.950717Z",
+   "lat": 30.529833333333332,
+   "lon": -97.64066666666666,
+   "alt": 5034.9912,
+   "comment": ",StrTrk,44,9,1.58V,2C,55776Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3031.79N/09738.44WO038/009/A=016519,StrTrk,44,9,1.58V,2C,55776Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 44,
+   "sats": 9,
+   "batt": 1.58,
+   "temp": 2.0,
+   "ext_pressure": 557.76,
+   "position": "30.529833333333332,-97.64066666666666",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:35:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:35:02.924700Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:35:02.924678Z",
+   "lat": 30.531666666666666,
+   "lon": -97.63766666666666,
+   "alt": 5257.1904,
+   "comment": ",StrTrk,45,9,1.58V,1C,54223Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3031.90N/09738.26WO036/012/A=017248,StrTrk,45,9,1.58V,1C,54223Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 45,
+   "sats": 9,
+   "batt": 1.58,
+   "temp": 1.0,
+   "ext_pressure": 542.23,
+   "position": "30.531666666666666,-97.63766666666666",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:36:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:36:02.928721Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:36:02.928697Z",
+   "lat": 30.533333333333335,
+   "lon": -97.63433333333333,
+   "alt": 5483.0472,
+   "comment": ",StrTrk,46,9,1.57V,0C,52654Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3032.00N/09738.06WO077/010/A=017989,StrTrk,46,9,1.57V,0C,52654Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 46,
+   "sats": 9,
+   "batt": 1.57,
+   "temp": 0.0,
+   "ext_pressure": 526.54,
+   "position": "30.533333333333335,-97.63433333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:37:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:37:02.920741Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:37:02.920689Z",
+   "lat": 30.533333333333335,
+   "lon": -97.6325,
+   "alt": 5739.0792,
+   "comment": ",StrTrk,47,9,1.57V,-1C,50967Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3032.00N/09737.95WO088/004/A=018829,StrTrk,47,9,1.57V,-1C,50967Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 47,
+   "sats": 9,
+   "batt": 1.57,
+   "temp": -1.0,
+   "ext_pressure": 509.67,
+   "position": "30.533333333333335,-97.6325",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:38:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:38:02.946169Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:38:02.946148Z",
+   "lat": 30.532833333333333,
+   "lon": -97.62916666666666,
+   "alt": 5976.2136,
+   "comment": ",StrTrk,48,9,1.57V,-2C,49443Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3031.97N/09737.75WO107/010/A=019607,StrTrk,48,9,1.57V,-2C,49443Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 48,
+   "sats": 9,
+   "batt": 1.57,
+   "temp": -2.0,
+   "ext_pressure": 494.43,
+   "position": "30.532833333333333,-97.62916666666666",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:39:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:39:02.929758Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:39:02.929734Z",
+   "lat": 30.532166666666665,
+   "lon": -97.62383333333334,
+   "alt": 6242.304,
+   "comment": ",StrTrk,49,9,1.57V,-4C,47768Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3031.93N/09737.43WO107/021/A=020480,StrTrk,49,9,1.57V,-4C,47768Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 49,
+   "sats": 9,
+   "batt": 1.57,
+   "temp": -4.0,
+   "ext_pressure": 477.68,
+   "position": "30.532166666666665,-97.62383333333334",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:40:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:40:02.937966Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:40:02.937941Z",
+   "lat": 30.531833333333335,
+   "lon": -97.61683333333333,
+   "alt": 6486.144,
+   "comment": ",StrTrk,50,9,1.56V,-5C,46261Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3031.91N/09737.01WO102/023/A=021280,StrTrk,50,9,1.56V,-5C,46261Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 50,
+   "sats": 9,
+   "batt": 1.56,
+   "temp": -5.0,
+   "ext_pressure": 462.61,
+   "position": "30.531833333333335,-97.61683333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:41:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:41:02.944263Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:41:02.944241Z",
+   "lat": 30.532666666666668,
+   "lon": -97.61016666666667,
+   "alt": 6731.2032,
+   "comment": ",StrTrk,51,9,1.56V,-7C,44838Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3031.96N/09736.61WO091/025/A=022084,StrTrk,51,9,1.56V,-7C,44838Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 51,
+   "sats": 9,
+   "batt": 1.56,
+   "temp": -7.0,
+   "ext_pressure": 448.38,
+   "position": "30.532666666666668,-97.61016666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:42:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:42:02.950663Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:42:02.950636Z",
+   "lat": 30.534,
+   "lon": -97.60266666666666,
+   "alt": 6991.1976,
+   "comment": ",StrTrk,52,9,1.54V,-09C,43314Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3032.04N/09736.16WO073/026/A=022937,StrTrk,52,9,1.54V,-09C,43314Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 52,
+   "sats": 9,
+   "batt": 1.54,
+   "temp": -9.0,
+   "ext_pressure": 433.14,
+   "position": "30.534,-97.60266666666666",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:43:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:43:02.944271Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:43:02.944242Z",
+   "lat": 30.536,
+   "lon": -97.59533333333333,
+   "alt": 7214.3112,
+   "comment": ",StrTrk,53,9,1.54V,-10C,42065Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3032.16N/09735.72WO062/027/A=023669,StrTrk,53,9,1.54V,-10C,42065Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 53,
+   "sats": 9,
+   "batt": 1.54,
+   "temp": -10.0,
+   "ext_pressure": 420.65,
+   "position": "30.536,-97.59533333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:44:03.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "K0MVH-2",
+   "path": "WIDE2-1,qAR,K0MVH-2",
+   "time_received": "2026-11-19T22:44:03.103028Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:44:03.102990Z",
+   "lat": 30.538,
+   "lon": -97.58866666666667,
+   "alt": 7468.2096,
+   "comment": ",StrTrk,54,9,1.54V,-12C,40646Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,K0MVH-2:!3032.28N/09735.32WO085/015/A=024502,StrTrk,54,9,1.54V,-12C,40646Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 54,
+   "sats": 9,
+   "batt": 1.54,
+   "temp": -12.0,
+   "ext_pressure": 406.46,
+   "position": "30.538,-97.58866666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "K0MVH-2"
+    }
+   ]
+  },
+  "2026-11-19T22:45:03.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "K5DAV-10",
+   "path": "WIDE2-1,qAR,K5DAV-10",
+   "time_received": "2026-11-19T22:45:03.120950Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:45:03.120915Z",
+   "lat": 30.539166666666667,
+   "lon": -97.58133333333333,
+   "alt": 7715.0976,
+   "comment": ",StrTrk,55,9,1.54V,-14C,39358Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,K5DAV-10:!3032.35N/09734.88WO077/023/A=025312,StrTrk,55,9,1.54V,-14C,39358Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 55,
+   "sats": 9,
+   "batt": 1.54,
+   "temp": -14.0,
+   "ext_pressure": 393.58,
+   "position": "30.539166666666667,-97.58133333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "K5DAV-10"
+    }
+   ]
+  },
+  "2026-11-19T22:46:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:46:02.934499Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:46:02.934456Z",
+   "lat": 30.54083333333333,
+   "lon": -97.57383333333334,
+   "alt": 7939.1256,
+   "comment": ",StrTrk,56,9,1.53V,-16C,38139Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3032.45N/09734.43WO060/025/A=026047,StrTrk,56,9,1.53V,-16C,38139Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 56,
+   "sats": 9,
+   "batt": 1.53,
+   "temp": -16.0,
+   "ext_pressure": 381.39,
+   "position": "30.54083333333333,-97.57383333333334",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:47:03.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "W5ROX-2",
+   "path": "WIDE2-1,qAR,W5ROX-2",
+   "time_received": "2026-11-19T22:47:03.102865Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:47:03.102818Z",
+   "lat": 30.543,
+   "lon": -97.56716666666667,
+   "alt": 8181.1368,
+   "comment": ",StrTrk,57,9,1.53V,-17C,36923Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,W5ROX-2:!3032.58N/09734.03WO064/022/A=026841,StrTrk,57,9,1.53V,-17C,36923Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 57,
+   "sats": 9,
+   "batt": 1.53,
+   "temp": -17.0,
+   "ext_pressure": 369.23,
+   "position": "30.543,-97.56716666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "W5ROX-2"
+    }
+   ]
+  },
+  "2026-11-19T22:47:04.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "XE2KK-10",
+   "path": "WX5II-2,WIDE2*,qAR,XE2KK-10",
+   "time_received": "2026-11-19T22:47:04.189863Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:47:04.189840Z",
+   "lat": 30.543,
+   "lon": -97.56716666666667,
+   "alt": 8181.1368,
+   "comment": ",StrTrk,57,9,1.53V,-17C,36923Pa,\u009e",
+   "raw": "KE9CFY-11>CQ,WX5II-2,WIDE2*,qAR,XE2KK-10:!3032.58N/09734.03WO064/022/A=026841,StrTrk,57,9,1.53V,-17C,36923Pa,\u009e",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 57,
+   "sats": 9,
+   "batt": 1.53,
+   "temp": -17.0,
+   "ext_pressure": 369.23,
+   "position": "30.543,-97.56716666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "XE2KK-10"
+    }
+   ]
+  },
+  "2026-11-19T22:48:03.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "K0MVH-2",
+   "path": "WIDE2-1,qAR,K0MVH-2",
+   "time_received": "2026-11-19T22:48:03.115993Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:48:03.115972Z",
+   "lat": 30.544833333333333,
+   "lon": -97.5605,
+   "alt": 8427.1104,
+   "comment": ",StrTrk,58,9,1.53V,-19C,35713Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,K0MVH-2:!3032.69N/09733.63WO059/022/A=027648,StrTrk,58,9,1.53V,-19C,35713Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 58,
+   "sats": 9,
+   "batt": 1.53,
+   "temp": -19.0,
+   "ext_pressure": 357.13,
+   "position": "30.544833333333333,-97.5605",
+   "uploaders": [
+    {
+     "uploader_callsign": "K0MVH-2"
+    }
+   ]
+  },
+  "2026-11-19T22:49:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:49:02.966402Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:49:02.966378Z",
+   "lat": 30.546,
+   "lon": -97.55366666666667,
+   "alt": 8657.234400000001,
+   "comment": ",StrTrk,59,9,1.51V,-21C,34590Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3032.76N/09733.22WO084/024/A=028403,StrTrk,59,9,1.51V,-21C,34590Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 59,
+   "sats": 9,
+   "batt": 1.51,
+   "temp": -21.0,
+   "ext_pressure": 345.9,
+   "position": "30.546,-97.55366666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:50:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:50:02.949796Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:50:02.949772Z",
+   "lat": 30.547,
+   "lon": -97.546,
+   "alt": 8905.3416,
+   "comment": ",StrTrk,60,9,1.50V,-23C,33437Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3032.82N/09732.76WO078/019/A=029217,StrTrk,60,9,1.50V,-23C,33437Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 60,
+   "sats": 9,
+   "batt": 1.5,
+   "temp": -23.0,
+   "ext_pressure": 334.37,
+   "position": "30.547,-97.546",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:51:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:51:02.937642Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:51:02.937618Z",
+   "lat": 30.548166666666667,
+   "lon": -97.5365,
+   "alt": 9223.248,
+   "comment": ",StrTrk,61,9,1.50V,-25C,31979Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3032.89N/09732.19WO081/037/A=030260,StrTrk,61,9,1.50V,-25C,31979Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 61,
+   "sats": 9,
+   "batt": 1.5,
+   "temp": -25.0,
+   "ext_pressure": 319.79,
+   "position": "30.548166666666667,-97.5365",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:52:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:52:02.953549Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:52:02.953501Z",
+   "lat": 30.5505,
+   "lon": -97.52616666666667,
+   "alt": 9463.430400000001,
+   "comment": ",StrTrk,62,9,1.49V,-27C,30889Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3033.03N/09731.57WO074/030/A=031048,StrTrk,62,9,1.49V,-27C,30889Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 62,
+   "sats": 9,
+   "batt": 1.49,
+   "temp": -27.0,
+   "ext_pressure": 308.89,
+   "position": "30.5505,-97.52616666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:53:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:53:02.955032Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:53:02.955004Z",
+   "lat": 30.5535,
+   "lon": -97.51583333333333,
+   "alt": 9703.308,
+   "comment": ",StrTrk,63,9,1.49V,-28C,29828Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3033.21N/09730.95WO066/033/A=031835,StrTrk,63,9,1.49V,-28C,29828Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 63,
+   "sats": 9,
+   "batt": 1.49,
+   "temp": -28.0,
+   "ext_pressure": 298.28,
+   "position": "30.5535,-97.51583333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:54:03.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "K0MVH-2",
+   "path": "WIDE2-1,qAR,K0MVH-2",
+   "time_received": "2026-11-19T22:54:03.118451Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:54:03.118419Z",
+   "lat": 30.556833333333334,
+   "lon": -97.50466666666667,
+   "alt": 9963.3024,
+   "comment": ",StrTrk,64,9,1.48V,-30C,28729Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,K0MVH-2:!3033.41N/09730.28WO069/042/A=032688,StrTrk,64,9,1.48V,-30C,28729Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 64,
+   "sats": 9,
+   "batt": 1.48,
+   "temp": -30.0,
+   "ext_pressure": 287.29,
+   "position": "30.556833333333334,-97.50466666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "K0MVH-2"
+    }
+   ]
+  },
+  "2026-11-19T22:55:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:55:02.939301Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:55:02.939277Z",
+   "lat": 30.5615,
+   "lon": -97.49333333333334,
+   "alt": 10230.307200000001,
+   "comment": ",StrTrk,65,9,1.47V,-32C,27686Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3033.69N/09729.60WO065/040/A=033564,StrTrk,65,9,1.47V,-32C,27686Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 65,
+   "sats": 9,
+   "batt": 1.47,
+   "temp": -32.0,
+   "ext_pressure": 276.86,
+   "position": "30.5615,-97.49333333333334",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:56:03.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "K5DAV-10",
+   "path": "WIDE2-1,qAR,K5DAV-10",
+   "time_received": "2026-11-19T22:56:03.133891Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:56:03.133840Z",
+   "lat": 30.566833333333335,
+   "lon": -97.48283333333333,
+   "alt": 10490.3016,
+   "comment": ",StrTrk,66,9,1.47V,-34C,26617Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,K5DAV-10:!3034.01N/09728.97WO062/036/A=034417,StrTrk,66,9,1.47V,-34C,26617Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 66,
+   "sats": 9,
+   "batt": 1.47,
+   "temp": -34.0,
+   "ext_pressure": 266.17,
+   "position": "30.566833333333335,-97.48283333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "K5DAV-10"
+    }
+   ]
+  },
+  "2026-11-19T22:57:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:57:02.937096Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:57:02.937073Z",
+   "lat": 30.573333333333334,
+   "lon": -97.47316666666667,
+   "alt": 10780.4712,
+   "comment": ",StrTrk,67,9,1.46V,-36C,25525Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3034.40N/09728.39WO045/042/A=035369,StrTrk,67,9,1.46V,-36C,25525Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 67,
+   "sats": 9,
+   "batt": 1.46,
+   "temp": -36.0,
+   "ext_pressure": 255.25,
+   "position": "30.573333333333334,-97.47316666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T22:58:03.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "K0MVH-2",
+   "path": "WIDE2-1,qAR,K0MVH-2",
+   "time_received": "2026-11-19T22:58:03.111777Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:58:03.111755Z",
+   "lat": 30.58,
+   "lon": -97.46416666666667,
+   "alt": 11002.365600000001,
+   "comment": ",StrTrk,68,9,1.45V,-37C,24681Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,K0MVH-2:!3034.80N/09727.85WO053/036/A=036097,StrTrk,68,9,1.45V,-37C,24681Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 68,
+   "sats": 9,
+   "batt": 1.45,
+   "temp": -37.0,
+   "ext_pressure": 246.81,
+   "position": "30.58,-97.46416666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "K0MVH-2"
+    }
+   ]
+  },
+  "2026-11-19T22:59:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T22:59:02.956610Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T22:59:02.956585Z",
+   "lat": 30.5845,
+   "lon": -97.45466666666667,
+   "alt": 11235.537600000001,
+   "comment": ",StrTrk,69,9,1.45V,-38C,23839Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3035.07N/09727.28WO075/031/A=036862,StrTrk,69,9,1.45V,-38C,23839Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 69,
+   "sats": 9,
+   "batt": 1.45,
+   "temp": -38.0,
+   "ext_pressure": 238.39,
+   "position": "30.5845,-97.45466666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:00:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:00:02.947220Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:00:02.947196Z",
+   "lat": 30.587333333333333,
+   "lon": -97.44433333333333,
+   "alt": 11454.384,
+   "comment": ",StrTrk,70,9,1.45V,-39C,23052Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3035.24N/09726.66WO077/031/A=037580,StrTrk,70,9,1.45V,-39C,23052Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 70,
+   "sats": 9,
+   "batt": 1.45,
+   "temp": -39.0,
+   "ext_pressure": 230.52,
+   "position": "30.587333333333333,-97.44433333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:01:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:01:02.946364Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:01:02.946340Z",
+   "lat": 30.589666666666666,
+   "lon": -97.4335,
+   "alt": 11674.4496,
+   "comment": ",StrTrk,71,9,1.43V,-40C,22257Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3035.38N/09726.01WO077/036/A=038302,StrTrk,71,9,1.43V,-40C,22257Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 71,
+   "sats": 9,
+   "batt": 1.43,
+   "temp": -40.0,
+   "ext_pressure": 222.57,
+   "position": "30.589666666666666,-97.4335",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:02:03.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "K0MVH-2",
+   "path": "WIDE2-1,qAR,K0MVH-2",
+   "time_received": "2026-11-19T23:02:03.131091Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:02:03.131068Z",
+   "lat": 30.591666666666665,
+   "lon": -97.423,
+   "alt": 11909.4504,
+   "comment": ",StrTrk,72,9,1.43V,-41C,21454Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,K0MVH-2:!3035.50N/09725.38WO077/032/A=039073,StrTrk,72,9,1.43V,-41C,21454Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 72,
+   "sats": 9,
+   "batt": 1.43,
+   "temp": -41.0,
+   "ext_pressure": 214.54,
+   "position": "30.591666666666665,-97.423",
+   "uploaders": [
+    {
+     "uploader_callsign": "K0MVH-2"
+    }
+   ]
+  },
+  "2026-11-19T23:03:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:03:02.952925Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:03:02.952900Z",
+   "lat": 30.594166666666666,
+   "lon": -97.41283333333334,
+   "alt": 12156.3384,
+   "comment": ",StrTrk,73,9,1.43V,-42C,20640Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3035.65N/09724.77WO071/024/A=039883,StrTrk,73,9,1.43V,-42C,20640Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 73,
+   "sats": 9,
+   "batt": 1.43,
+   "temp": -42.0,
+   "ext_pressure": 206.4,
+   "position": "30.594166666666666,-97.41283333333334",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:04:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:04:02.947966Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:04:02.947941Z",
+   "lat": 30.596333333333334,
+   "lon": -97.4025,
+   "alt": 12406.5792,
+   "comment": ",StrTrk,74,9,1.41V,-43C,19868Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3035.78N/09724.15WO086/037/A=040704,StrTrk,74,9,1.41V,-43C,19868Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 74,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -43.0,
+   "ext_pressure": 198.68,
+   "position": "30.596333333333334,-97.4025",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:05:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:05:02.943491Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:05:02.943470Z",
+   "lat": 30.596833333333333,
+   "lon": -97.3915,
+   "alt": 12651.3336,
+   "comment": ",StrTrk,75,9,1.42V,-44C,19103Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3035.81N/09723.49WO086/038/A=041507,StrTrk,75,9,1.42V,-44C,19103Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 75,
+   "sats": 9,
+   "batt": 1.42,
+   "temp": -44.0,
+   "ext_pressure": 191.03,
+   "position": "30.596833333333333,-97.3915",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:06:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:06:02.938593Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:06:02.938539Z",
+   "lat": 30.596666666666668,
+   "lon": -97.381,
+   "alt": 12930.530400000001,
+   "comment": ",StrTrk,76,9,1.40V,-45C,18272Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3035.80N/09722.86WO081/029/A=042423,StrTrk,76,9,1.40V,-45C,18272Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 76,
+   "sats": 9,
+   "batt": 1.4,
+   "temp": -45.0,
+   "ext_pressure": 182.72,
+   "position": "30.596666666666668,-97.381",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:07:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:07:02.947790Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:07:02.947765Z",
+   "lat": 30.598666666666666,
+   "lon": -97.373,
+   "alt": 13169.4936,
+   "comment": ",StrTrk,77,9,1.41V,-46C,17594Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3035.92N/09722.38WO075/029/A=043207,StrTrk,77,9,1.41V,-46C,17594Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 77,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -46.0,
+   "ext_pressure": 175.94,
+   "position": "30.598666666666666,-97.373",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:08:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:08:02.941973Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:08:02.941927Z",
+   "lat": 30.60183333333333,
+   "lon": -97.36366666666666,
+   "alt": 13395.350400000001,
+   "comment": ",StrTrk,78,9,1.42V,-46C,16955Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3036.11N/09721.82WO069/036/A=043948,StrTrk,78,9,1.42V,-46C,16955Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 78,
+   "sats": 9,
+   "batt": 1.42,
+   "temp": -46.0,
+   "ext_pressure": 169.55,
+   "position": "30.60183333333333,-97.36366666666666",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:09:03.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "K5VZC-1",
+   "path": "WIDE2-1,qAR,K5VZC-1",
+   "time_received": "2026-11-19T23:09:03.048741Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:09:03.048690Z",
+   "lat": 30.604333333333333,
+   "lon": -97.35166666666667,
+   "alt": 13623.6456,
+   "comment": ",StrTrk,79,9,1.41V,-46C,16346Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,K5VZC-1:!3036.26N/09721.10WO078/043/A=044697,StrTrk,79,9,1.41V,-46C,16346Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 79,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -46.0,
+   "ext_pressure": 163.46,
+   "position": "30.604333333333333,-97.35166666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "K5VZC-1"
+    }
+   ]
+  },
+  "2026-11-19T23:10:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:10:02.934421Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:10:02.934401Z",
+   "lat": 30.605,
+   "lon": -97.33833333333334,
+   "alt": 13837.6152,
+   "comment": ",StrTrk,80,9,1.41V,-46C,15770Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3036.30N/09720.30WO087/045/A=045399,StrTrk,80,9,1.41V,-46C,15770Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 80,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -46.0,
+   "ext_pressure": 157.7,
+   "position": "30.605,-97.33833333333334",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:11:03.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "W5ROX-2",
+   "path": "WIDE2-1,qAR,W5ROX-2",
+   "time_received": "2026-11-19T23:11:03.108375Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:11:03.108326Z",
+   "lat": 30.605833333333333,
+   "lon": -97.32566666666666,
+   "alt": 14060.424,
+   "comment": ",StrTrk,81,9,1.40V,-47C,15205Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,W5ROX-2:!3036.35N/09719.54WO072/040/A=046130,StrTrk,81,9,1.40V,-47C,15205Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 81,
+   "sats": 9,
+   "batt": 1.4,
+   "temp": -47.0,
+   "ext_pressure": 152.05,
+   "position": "30.605833333333333,-97.32566666666666",
+   "uploaders": [
+    {
+     "uploader_callsign": "W5ROX-2"
+    }
+   ]
+  },
+  "2026-11-19T23:12:03.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "K5RBC-10",
+   "path": "WIDE2-1,qAR,K5RBC-10",
+   "time_received": "2026-11-19T23:12:03.138590Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:12:03.138564Z",
+   "lat": 30.608666666666668,
+   "lon": -97.31333333333333,
+   "alt": 14291.4624,
+   "comment": ",StrTrk,82,9,1.41V,-46C,14634Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,K5RBC-10:!3036.52N/09718.80WO073/035/A=046888,StrTrk,82,9,1.41V,-46C,14634Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 82,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -46.0,
+   "ext_pressure": 146.34,
+   "position": "30.608666666666668,-97.31333333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "K5RBC-10"
+    }
+   ]
+  },
+  "2026-11-19T23:13:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:13:02.936513Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:13:02.936491Z",
+   "lat": 30.610833333333332,
+   "lon": -97.30083333333333,
+   "alt": 14525.5488,
+   "comment": ",StrTrk,83,9,1.40V,-47C,14072Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3036.65N/09718.05WO080/043/A=047656,StrTrk,83,9,1.40V,-47C,14072Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 83,
+   "sats": 9,
+   "batt": 1.4,
+   "temp": -47.0,
+   "ext_pressure": 140.72,
+   "position": "30.610833333333332,-97.30083333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:14:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:14:02.937653Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:14:02.937492Z",
+   "lat": 30.612666666666666,
+   "lon": -97.2875,
+   "alt": 14754.4536,
+   "comment": ",StrTrk,84,9,1.40V,-47C,13539Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3036.76N/09717.25WO081/039/A=048407,StrTrk,84,9,1.40V,-47C,13539Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 84,
+   "sats": 9,
+   "batt": 1.4,
+   "temp": -47.0,
+   "ext_pressure": 135.39,
+   "position": "30.612666666666666,-97.2875",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:15:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:15:02.938773Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:15:02.938751Z",
+   "lat": 30.614833333333333,
+   "lon": -97.27333333333333,
+   "alt": 14971.4712,
+   "comment": ",StrTrk,85,9,1.41V,-47C,13079Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3036.89N/09716.40WO079/050/A=049119,StrTrk,85,9,1.41V,-47C,13079Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 85,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -47.0,
+   "ext_pressure": 130.79,
+   "position": "30.614833333333333,-97.27333333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:16:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:16:02.960270Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:16:02.960235Z",
+   "lat": 30.61616666666667,
+   "lon": -97.25833333333334,
+   "alt": 15194.5848,
+   "comment": ",StrTrk,86,9,1.41V,-47C,12605Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3036.97N/09715.50WO082/040/A=049851,StrTrk,86,9,1.41V,-47C,12605Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 86,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -47.0,
+   "ext_pressure": 126.05,
+   "position": "30.61616666666667,-97.25833333333334",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:17:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:17:02.961550Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:17:02.961527Z",
+   "lat": 30.618333333333332,
+   "lon": -97.24333333333334,
+   "alt": 15423.4896,
+   "comment": ",StrTrk,87,9,1.41V,-47C,12121Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3037.10N/09714.60WO076/054/A=050602,StrTrk,87,9,1.41V,-47C,12121Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 87,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -47.0,
+   "ext_pressure": 121.21,
+   "position": "30.618333333333332,-97.24333333333334",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:18:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:18:02.957265Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:18:02.957235Z",
+   "lat": 30.619833333333332,
+   "lon": -97.22783333333334,
+   "alt": 15661.538400000001,
+   "comment": ",StrTrk,88,9,1.40V,-47C,11655Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3037.19N/09713.67WO081/048/A=051383,StrTrk,88,9,1.40V,-47C,11655Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 88,
+   "sats": 9,
+   "batt": 1.4,
+   "temp": -47.0,
+   "ext_pressure": 116.55,
+   "position": "30.619833333333332,-97.22783333333334",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:19:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:19:02.934398Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:19:02.934344Z",
+   "lat": 30.620666666666665,
+   "lon": -97.21483333333333,
+   "alt": 15922.752,
+   "comment": ",StrTrk,89,9,1.42V,-47C,11154Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3037.24N/09712.89WO083/039/A=052240,StrTrk,89,9,1.42V,-47C,11154Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 89,
+   "sats": 9,
+   "batt": 1.42,
+   "temp": -47.0,
+   "ext_pressure": 111.54,
+   "position": "30.620666666666665,-97.21483333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:20:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:20:02.936404Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:20:02.936383Z",
+   "lat": 30.622833333333332,
+   "lon": -97.20566666666667,
+   "alt": 16178.784000000001,
+   "comment": ",StrTrk,90,9,1.41V,-47C,10689Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3037.37N/09712.34WO076/029/A=053080,StrTrk,90,9,1.41V,-47C,10689Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 90,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -47.0,
+   "ext_pressure": 106.89,
+   "position": "30.622833333333332,-97.20566666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:21:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:21:02.928184Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:21:02.928160Z",
+   "lat": 30.627666666666666,
+   "lon": -97.19616666666667,
+   "alt": 16432.6824,
+   "comment": ",StrTrk,91,9,1.41V,-47C,10237Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3037.66N/09711.77WO058/040/A=053913,StrTrk,91,9,1.41V,-47C,10237Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 91,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -47.0,
+   "ext_pressure": 102.37,
+   "position": "30.627666666666666,-97.19616666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:22:03.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "K5VZC-1",
+   "path": "WIDE2-1,qAR,K5VZC-1",
+   "time_received": "2026-11-19T23:22:03.069619Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:22:03.069588Z",
+   "lat": 30.63383333333333,
+   "lon": -97.1845,
+   "alt": 16683.5328,
+   "comment": ",StrTrk,92,9,1.41V,-47C,9811Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,K5VZC-1:!3038.03N/09711.07WO061/047/A=054736,StrTrk,92,9,1.41V,-47C,9811Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 92,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -47.0,
+   "ext_pressure": 98.11,
+   "position": "30.63383333333333,-97.1845",
+   "uploaders": [
+    {
+     "uploader_callsign": "K5VZC-1"
+    }
+   ]
+  },
+  "2026-11-19T23:23:03.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "KI5DVG-10",
+   "path": "WIDE2-1,qAR,KI5DVG-10",
+   "time_received": "2026-11-19T23:23:03.127436Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:23:03.127413Z",
+   "lat": 30.639166666666668,
+   "lon": -97.17083333333333,
+   "alt": 16922.8008,
+   "comment": ",StrTrk,93,9,1.41V,-47C,9428Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,KI5DVG-10:!3038.35N/09710.25WO070/052/A=055521,StrTrk,93,9,1.41V,-47C,9428Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 93,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -47.0,
+   "ext_pressure": 94.28,
+   "position": "30.639166666666668,-97.17083333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "KI5DVG-10"
+    }
+   ]
+  },
+  "2026-11-19T23:24:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WB5TZJ",
+   "path": "WIDE2-1,qAR,WB5TZJ",
+   "time_received": "2026-11-19T23:24:02.982182Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:24:02.982128Z",
+   "lat": 30.643,
+   "lon": -97.15583333333333,
+   "alt": 17149.572,
+   "comment": ",StrTrk,94,9,1.41V,-47C,9081Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WB5TZJ:!3038.58N/09709.35WO069/051/A=056265,StrTrk,94,9,1.41V,-47C,9081Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 94,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -47.0,
+   "ext_pressure": 90.81,
+   "position": "30.643,-97.15583333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "WB5TZJ"
+    }
+   ]
+  },
+  "2026-11-19T23:25:03.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "K5VZC-1",
+   "path": "WIDE2-1,qAR,K5VZC-1",
+   "time_received": "2026-11-19T23:25:03.092808Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:25:03.092763Z",
+   "lat": 30.6475,
+   "lon": -97.14283333333333,
+   "alt": 17378.781600000002,
+   "comment": ",StrTrk,95,9,1.41V,-47C,8745Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,K5VZC-1:!3038.85N/09708.57WO063/038/A=057017,StrTrk,95,9,1.41V,-47C,8745Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 95,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -47.0,
+   "ext_pressure": 87.45,
+   "position": "30.6475,-97.14283333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "K5VZC-1"
+    }
+   ]
+  },
+  "2026-11-19T23:26:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:26:02.958540Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:26:02.958514Z",
+   "lat": 30.653,
+   "lon": -97.131,
+   "alt": 17633.5944,
+   "comment": ",StrTrk,96,9,1.41V,-47C,8372Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3039.18N/09707.86WO056/045/A=057853,StrTrk,96,9,1.41V,-47C,8372Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 96,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -47.0,
+   "ext_pressure": 83.72,
+   "position": "30.653,-97.131",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:27:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:27:02.921442Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:27:02.921405Z",
+   "lat": 30.658166666666666,
+   "lon": -97.117,
+   "alt": 17898.7704,
+   "comment": ",StrTrk,97,9,1.42V,-47C,8002Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3039.49N/09707.02WO069/051/A=058723,StrTrk,97,9,1.42V,-47C,8002Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 97,
+   "sats": 9,
+   "batt": 1.42,
+   "temp": -47.0,
+   "ext_pressure": 80.02,
+   "position": "30.658166666666666,-97.117",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:28:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:28:02.934834Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:28:02.934808Z",
+   "lat": 30.660333333333334,
+   "lon": -97.106,
+   "alt": 18148.7064,
+   "comment": ",StrTrk,98,9,1.41V,-47C,7686Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3039.62N/09706.36WO088/032/A=059543,StrTrk,98,9,1.41V,-47C,7686Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 98,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -47.0,
+   "ext_pressure": 76.86,
+   "position": "30.660333333333334,-97.106",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:29:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:29:02.943526Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:29:02.943473Z",
+   "lat": 30.662,
+   "lon": -97.09866666666667,
+   "alt": 18394.68,
+   "comment": ",StrTrk,99,9,1.41V,-47C,7380Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3039.72N/09705.92WO056/021/A=060350,StrTrk,99,9,1.41V,-47C,7380Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 99,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -47.0,
+   "ext_pressure": 73.8,
+   "position": "30.662,-97.09866666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:30:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:30:02.944777Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:30:02.944753Z",
+   "lat": 30.666333333333334,
+   "lon": -97.09216666666667,
+   "alt": 18655.8936,
+   "comment": ",StrTrk,100,9,1.42V,-47C,7064Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3039.98N/09705.53WO048/024/A=061207,StrTrk,100,9,1.42V,-47C,7064Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 100,
+   "sats": 9,
+   "batt": 1.42,
+   "temp": -47.0,
+   "ext_pressure": 70.64,
+   "position": "30.666333333333334,-97.09216666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:31:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:31:02.933860Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:31:02.933837Z",
+   "lat": 30.671333333333333,
+   "lon": -97.08333333333333,
+   "alt": 18910.706400000003,
+   "comment": ",StrTrk,101,9,1.42V,-47C,6762Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3040.28N/09705.00WO072/029/A=062043,StrTrk,101,9,1.42V,-47C,6762Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 101,
+   "sats": 9,
+   "batt": 1.42,
+   "temp": -47.0,
+   "ext_pressure": 67.62,
+   "position": "30.671333333333333,-97.08333333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:32:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:32:02.957889Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:32:02.957864Z",
+   "lat": 30.673000000000002,
+   "lon": -97.0755,
+   "alt": 19166.738400000002,
+   "comment": ",StrTrk,102,9,1.41V,-47C,6475Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3040.38N/09704.53WO070/025/A=062883,StrTrk,102,9,1.41V,-47C,6475Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 102,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -47.0,
+   "ext_pressure": 64.75,
+   "position": "30.673000000000002,-97.0755",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:33:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:33:02.946260Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:33:02.946207Z",
+   "lat": 30.677,
+   "lon": -97.06933333333333,
+   "alt": 19419.722400000002,
+   "comment": ",StrTrk,103,9,1.41V,-47C,6205Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3040.62N/09704.16WO051/028/A=063713,StrTrk,103,9,1.41V,-47C,6205Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 103,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -47.0,
+   "ext_pressure": 62.05,
+   "position": "30.677,-97.06933333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:34:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:34:02.942428Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:34:02.942387Z",
+   "lat": 30.68016666666667,
+   "lon": -97.06166666666667,
+   "alt": 19677.888000000003,
+   "comment": ",StrTrk,104,9,1.42V,-47C,5932Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3040.81N/09703.70WO083/030/A=064560,StrTrk,104,9,1.42V,-47C,5932Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 104,
+   "sats": 9,
+   "batt": 1.42,
+   "temp": -47.0,
+   "ext_pressure": 59.32,
+   "position": "30.68016666666667,-97.06166666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:35:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:35:02.937831Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:35:02.937781Z",
+   "lat": 30.680666666666667,
+   "lon": -97.054,
+   "alt": 19957.6944,
+   "comment": ",StrTrk,105,9,1.42V,-47C,5678Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3040.84N/09703.24WO102/019/A=065478,StrTrk,105,9,1.42V,-47C,5678Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 105,
+   "sats": 9,
+   "batt": 1.42,
+   "temp": -47.0,
+   "ext_pressure": 56.78,
+   "position": "30.680666666666667,-97.054",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:36:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:36:02.951429Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:36:02.951404Z",
+   "lat": 30.681666666666665,
+   "lon": -97.047,
+   "alt": 20230.7952,
+   "comment": ",StrTrk,106,9,1.42V,-47C,5417Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3040.90N/09702.82WO092/020/A=066374,StrTrk,106,9,1.42V,-47C,5417Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 106,
+   "sats": 9,
+   "batt": 1.42,
+   "temp": -47.0,
+   "ext_pressure": 54.17,
+   "position": "30.681666666666665,-97.047",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:37:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:37:02.944422Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:37:02.944398Z",
+   "lat": 30.68,
+   "lon": -97.04083333333334,
+   "alt": 20483.7792,
+   "comment": ",StrTrk,107,9,1.42V,-47C,5190Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3040.80N/09702.45WO108/017/A=067204,StrTrk,107,9,1.42V,-47C,5190Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 107,
+   "sats": 9,
+   "batt": 1.42,
+   "temp": -47.0,
+   "ext_pressure": 51.9,
+   "position": "30.68,-97.04083333333334",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:38:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:38:02.951766Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:38:02.951743Z",
+   "lat": 30.678166666666666,
+   "lon": -97.03733333333334,
+   "alt": 20727.0096,
+   "comment": ",StrTrk,108,9,1.41V,-47C,4975Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3040.69N/09702.24WO122/008/A=068002,StrTrk,108,9,1.41V,-47C,4975Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 108,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -47.0,
+   "ext_pressure": 49.75,
+   "position": "30.678166666666666,-97.03733333333334",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:39:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:39:02.948022Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:39:02.947998Z",
+   "lat": 30.676833333333335,
+   "lon": -97.03616666666667,
+   "alt": 20976.945600000003,
+   "comment": ",StrTrk,109,9,1.43V,-47C,4761Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3040.61N/09702.17WO196/003/A=068822,StrTrk,109,9,1.43V,-47C,4761Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 109,
+   "sats": 9,
+   "batt": 1.43,
+   "temp": -47.0,
+   "ext_pressure": 47.61,
+   "position": "30.676833333333335,-97.03616666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:40:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:40:02.952788Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:40:02.952754Z",
+   "lat": 30.677333333333333,
+   "lon": -97.0355,
+   "alt": 21233.892,
+   "comment": ",StrTrk,110,9,1.41V,-47C,4562Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3040.64N/09702.13WO077/011/A=069665,StrTrk,110,9,1.41V,-47C,4562Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 110,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -47.0,
+   "ext_pressure": 45.62,
+   "position": "30.677333333333333,-97.0355",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:41:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:41:02.946079Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:41:02.946027Z",
+   "lat": 30.6785,
+   "lon": -97.031,
+   "alt": 21519.794400000002,
+   "comment": ",StrTrk,111,9,1.42V,-47C,4348Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3040.71N/09701.86WO074/024/A=070603,StrTrk,111,9,1.42V,-47C,4348Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 111,
+   "sats": 9,
+   "batt": 1.42,
+   "temp": -47.0,
+   "ext_pressure": 43.48,
+   "position": "30.6785,-97.031",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:42:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:42:02.935892Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:42:02.935832Z",
+   "lat": 30.677666666666667,
+   "lon": -97.02633333333333,
+   "alt": 21791.9808,
+   "comment": ",StrTrk,112,9,1.41V,-47C,4154Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3040.66N/09701.58WO144/007/A=071496,StrTrk,112,9,1.41V,-47C,4154Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 112,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -47.0,
+   "ext_pressure": 41.54,
+   "position": "30.677666666666667,-97.02633333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:43:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:43:02.959906Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:43:02.959882Z",
+   "lat": 30.677,
+   "lon": -97.024,
+   "alt": 22051.060800000003,
+   "comment": ",StrTrk,113,9,1.41V,-47C,3972Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3040.62N/09701.44WO090/013/A=072346,StrTrk,113,9,1.41V,-47C,3972Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 113,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -47.0,
+   "ext_pressure": 39.72,
+   "position": "30.677,-97.024",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:44:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:44:02.936791Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:44:02.936752Z",
+   "lat": 30.677,
+   "lon": -97.02033333333334,
+   "alt": 22316.846400000002,
+   "comment": ",StrTrk,114,9,1.42V,-47C,3789Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3040.62N/09701.22WO082/013/A=073218,StrTrk,114,9,1.42V,-47C,3789Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 114,
+   "sats": 9,
+   "batt": 1.42,
+   "temp": -47.0,
+   "ext_pressure": 37.89,
+   "position": "30.677,-97.02033333333334",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:45:03.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "K5DAV-10",
+   "path": "WIDE2-1,qAR,K5DAV-10",
+   "time_received": "2026-11-19T23:45:03.062310Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:45:03.062287Z",
+   "lat": 30.678333333333335,
+   "lon": -97.0155,
+   "alt": 22603.053600000003,
+   "comment": ",StrTrk,115,9,1.41V,-48C,3620Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,K5DAV-10:!3040.70N/09700.93WO099/016/A=074157,StrTrk,115,9,1.41V,-48C,3620Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 115,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -48.0,
+   "ext_pressure": 36.2,
+   "position": "30.678333333333335,-97.0155",
+   "uploaders": [
+    {
+     "uploader_callsign": "K5DAV-10"
+    }
+   ]
+  },
+  "2026-11-19T23:46:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:46:02.938477Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:46:02.938455Z",
+   "lat": 30.678333333333335,
+   "lon": -97.0095,
+   "alt": 22886.8224,
+   "comment": ",StrTrk,116,9,1.41V,-48C,3436Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3040.70N/09700.57WO105/020/A=075088,StrTrk,116,9,1.41V,-48C,3436Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 116,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -48.0,
+   "ext_pressure": 34.36,
+   "position": "30.678333333333335,-97.0095",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:47:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:47:02.950508Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:47:02.950483Z",
+   "lat": 30.67716666666667,
+   "lon": -97.0025,
+   "alt": 23155.046400000003,
+   "comment": ",StrTrk,117,9,1.41V,-48C,3283Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3040.63N/09700.15WO093/015/A=075968,StrTrk,117,9,1.41V,-48C,3283Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 117,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -48.0,
+   "ext_pressure": 32.83,
+   "position": "30.67716666666667,-97.0025",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:48:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:48:02.939963Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:48:02.939942Z",
+   "lat": 30.6765,
+   "lon": -96.996,
+   "alt": 23419.9176,
+   "comment": ",StrTrk,118,9,1.40V,-48C,3139Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3040.59N/09659.76WO104/022/A=076837,StrTrk,118,9,1.40V,-48C,3139Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 118,
+   "sats": 9,
+   "batt": 1.4,
+   "temp": -48.0,
+   "ext_pressure": 31.39,
+   "position": "30.6765,-96.996",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:49:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:49:02.944634Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:49:02.944614Z",
+   "lat": 30.6745,
+   "lon": -96.98583333333333,
+   "alt": 23678.0832,
+   "comment": ",StrTrk,119,9,1.41V,-48C,2997Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3040.47N/09659.15WO110/032/A=077684,StrTrk,119,9,1.41V,-48C,2997Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 119,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -48.0,
+   "ext_pressure": 29.97,
+   "position": "30.6745,-96.98583333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:50:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:50:02.930375Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:50:02.930354Z",
+   "lat": 30.6725,
+   "lon": -96.97683333333333,
+   "alt": 23942.954400000002,
+   "comment": ",StrTrk,120,9,1.40V,-48C,2875Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3040.35N/09658.61WO102/027/A=078553,StrTrk,120,9,1.40V,-48C,2875Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 120,
+   "sats": 9,
+   "batt": 1.4,
+   "temp": -48.0,
+   "ext_pressure": 28.75,
+   "position": "30.6725,-96.97683333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:51:03.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "K5DAV-10",
+   "path": "WIDE2-1,qAR,K5DAV-10",
+   "time_received": "2026-11-19T23:51:03.087909Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:51:03.087834Z",
+   "lat": 30.669333333333334,
+   "lon": -96.96933333333334,
+   "alt": 24223.0656,
+   "comment": ",StrTrk,121,9,1.42V,-48C,2735Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,K5DAV-10:!3040.16N/09658.16WO127/024/A=079472,StrTrk,121,9,1.42V,-48C,2735Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 121,
+   "sats": 9,
+   "batt": 1.42,
+   "temp": -48.0,
+   "ext_pressure": 27.35,
+   "position": "30.669333333333334,-96.96933333333334",
+   "uploaders": [
+    {
+     "uploader_callsign": "K5DAV-10"
+    }
+   ]
+  },
+  "2026-11-19T23:52:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:52:02.943106Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:52:02.943082Z",
+   "lat": 30.6645,
+   "lon": -96.9615,
+   "alt": 24529.999200000002,
+   "comment": ",StrTrk,122,9,1.41V,-48C,2580Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3039.87N/09657.69WO126/035/A=080479,StrTrk,122,9,1.41V,-48C,2580Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 122,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -48.0,
+   "ext_pressure": 25.8,
+   "position": "30.6645,-96.9615",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:53:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:53:02.956615Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:53:02.956589Z",
+   "lat": 30.661,
+   "lon": -96.95316666666666,
+   "alt": 24811.024800000003,
+   "comment": ",StrTrk,123,9,1.41V,-49C,2465Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3039.66N/09657.19WO114/028/A=081401,StrTrk,123,9,1.41V,-49C,2465Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 123,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -49.0,
+   "ext_pressure": 24.65,
+   "position": "30.661,-96.95316666666666",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:54:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:54:02.933074Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:54:02.933052Z",
+   "lat": 30.659166666666668,
+   "lon": -96.94566666666667,
+   "alt": 25062.18,
+   "comment": ",StrTrk,124,9,1.41V,-49C,2354Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3039.55N/09656.74WO113/025/A=082225,StrTrk,124,9,1.41V,-49C,2354Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 124,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -49.0,
+   "ext_pressure": 23.54,
+   "position": "30.659166666666668,-96.94566666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:55:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:55:02.947546Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:55:02.947523Z",
+   "lat": 30.655,
+   "lon": -96.93933333333334,
+   "alt": 25331.013600000002,
+   "comment": ",StrTrk,125,9,1.41V,-48C,2254Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3039.30N/09656.36WO140/025/A=083107,StrTrk,125,9,1.41V,-48C,2254Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 125,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -48.0,
+   "ext_pressure": 22.54,
+   "position": "30.655,-96.93933333333334",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:56:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:56:02.935470Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:56:02.935448Z",
+   "lat": 30.651333333333334,
+   "lon": -96.93216666666666,
+   "alt": 25630.0224,
+   "comment": ",StrTrk,126,9,1.40V,-48C,2148Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3039.08N/09655.93WO128/023/A=084088,StrTrk,126,9,1.40V,-48C,2148Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 126,
+   "sats": 9,
+   "batt": 1.4,
+   "temp": -48.0,
+   "ext_pressure": 21.48,
+   "position": "30.651333333333334,-96.93216666666666",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:57:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:57:02.957921Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:57:02.957893Z",
+   "lat": 30.646833333333333,
+   "lon": -96.926,
+   "alt": 25929.0312,
+   "comment": ",StrTrk,127,9,1.41V,-48C,2041Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3038.81N/09655.56WO118/021/A=085069,StrTrk,127,9,1.41V,-48C,2041Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 127,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -48.0,
+   "ext_pressure": 20.41,
+   "position": "30.646833333333333,-96.926",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:58:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:58:02.936926Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:58:02.936902Z",
+   "lat": 30.643666666666668,
+   "lon": -96.9205,
+   "alt": 26213.1048,
+   "comment": ",StrTrk,128,9,1.40V,-48C,1937Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3038.62N/09655.23WO114/019/A=086001,StrTrk,128,9,1.40V,-48C,1937Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 128,
+   "sats": 9,
+   "batt": 1.4,
+   "temp": -48.0,
+   "ext_pressure": 19.37,
+   "position": "30.643666666666668,-96.9205",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-19T23:59:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-19T23:59:02.962991Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-19T23:59:02.962962Z",
+   "lat": 30.643666666666668,
+   "lon": -96.91633333333333,
+   "alt": 26485.2912,
+   "comment": ",StrTrk,129,9,1.41V,-48C,1853Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3038.62N/09654.98WO080/011/A=086894,StrTrk,129,9,1.41V,-48C,1853Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 129,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -48.0,
+   "ext_pressure": 18.53,
+   "position": "30.643666666666668,-96.91633333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-20T00:01:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-20T00:01:02.934024Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:01:02.933975Z",
+   "lat": 30.646166666666666,
+   "lon": -96.9045,
+   "alt": 27035.150400000002,
+   "comment": ",StrTrk,131,9,1.41V,-48C,1682Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3038.77N/09654.27WO088/028/A=088698,StrTrk,131,9,1.41V,-48C,1682Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 131,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -48.0,
+   "ext_pressure": 16.82,
+   "position": "30.646166666666666,-96.9045",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-20T00:02:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-20T00:02:02.943697Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:02:02.943640Z",
+   "lat": 30.6475,
+   "lon": -96.894,
+   "alt": 27300.3264,
+   "comment": ",StrTrk,132,9,1.40V,-48C,1595Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3038.85N/09653.64WO091/034/A=089568,StrTrk,132,9,1.40V,-48C,1595Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 132,
+   "sats": 9,
+   "batt": 1.4,
+   "temp": -48.0,
+   "ext_pressure": 15.95,
+   "position": "30.6475,-96.894",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-20T00:03:03.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WB5TZJ",
+   "path": "WIDE2-1,qAR,WB5TZJ",
+   "time_received": "2026-11-20T00:03:03.012515Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:03:03.012485Z",
+   "lat": 30.648,
+   "lon": -96.88283333333334,
+   "alt": 27564.2832,
+   "comment": ",StrTrk,133,9,1.41V,-48C,1525Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WB5TZJ:!3038.88N/09652.97WO091/036/A=090434,StrTrk,133,9,1.41V,-48C,1525Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 133,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -48.0,
+   "ext_pressure": 15.25,
+   "position": "30.648,-96.88283333333334",
+   "uploaders": [
+    {
+     "uploader_callsign": "WB5TZJ"
+    }
+   ]
+  },
+  "2026-11-20T00:04:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-20T00:04:02.951902Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:04:02.951881Z",
+   "lat": 30.649,
+   "lon": -96.86916666666667,
+   "alt": 27837.0792,
+   "comment": ",StrTrk,134,9,1.41V,-48C,1458Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3038.94N/09652.15WO085/047/A=091329,StrTrk,134,9,1.41V,-48C,1458Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 134,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -48.0,
+   "ext_pressure": 14.58,
+   "position": "30.649,-96.86916666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-20T00:05:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-20T00:05:02.957378Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:05:02.957338Z",
+   "lat": 30.649333333333335,
+   "lon": -96.85366666666667,
+   "alt": 28132.125600000003,
+   "comment": ",StrTrk,135,9,1.40V,-48C,1401Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3038.96N/09651.22WO090/039/A=092297,StrTrk,135,9,1.40V,-48C,1401Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 135,
+   "sats": 9,
+   "batt": 1.4,
+   "temp": -48.0,
+   "ext_pressure": 14.01,
+   "position": "30.649333333333335,-96.85366666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-20T00:06:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-20T00:06:02.959353Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:06:02.959269Z",
+   "lat": 30.648833333333332,
+   "lon": -96.83933333333333,
+   "alt": 28439.364,
+   "comment": ",StrTrk,136,9,1.40V,-48C,1303Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3038.93N/09650.36WO086/042/A=093305,StrTrk,136,9,1.40V,-48C,1303Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 136,
+   "sats": 9,
+   "batt": 1.4,
+   "temp": -48.0,
+   "ext_pressure": 13.03,
+   "position": "30.648833333333332,-96.83933333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-20T00:07:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-20T00:07:02.954917Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:07:02.954893Z",
+   "lat": 30.652333333333335,
+   "lon": -96.822,
+   "alt": 28751.1744,
+   "comment": ",StrTrk,137,9,1.41V,-48C,1236Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3039.14N/09649.32WO078/057/A=094328,StrTrk,137,9,1.41V,-48C,1236Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 137,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -48.0,
+   "ext_pressure": 12.36,
+   "position": "30.652333333333335,-96.822",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-20T00:08:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-20T00:08:02.929697Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:08:02.929675Z",
+   "lat": 30.654,
+   "lon": -96.80266666666667,
+   "alt": 29046.220800000003,
+   "comment": ",StrTrk,138,9,1.41V,-47C,1182Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3039.24N/09648.16WO086/062/A=095296,StrTrk,138,9,1.41V,-47C,1182Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 138,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -47.0,
+   "ext_pressure": 11.82,
+   "position": "30.654,-96.80266666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-20T00:09:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-20T00:09:02.955107Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:09:02.955085Z",
+   "lat": 30.655,
+   "lon": -96.78516666666667,
+   "alt": 29343.400800000003,
+   "comment": ",StrTrk,139,9,1.40V,-47C,1128Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3039.30N/09647.11WO085/051/A=096271,StrTrk,139,9,1.40V,-47C,1128Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 139,
+   "sats": 9,
+   "batt": 1.4,
+   "temp": -47.0,
+   "ext_pressure": 11.28,
+   "position": "30.655,-96.78516666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-20T00:10:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-20T00:10:02.977482Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:10:02.977456Z",
+   "lat": 30.653833333333335,
+   "lon": -96.76766666666667,
+   "alt": 29660.3928,
+   "comment": ",StrTrk,140,9,1.41V,-47C,1066Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3039.23N/09646.06WO090/055/A=097311,StrTrk,140,9,1.41V,-47C,1066Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 140,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -47.0,
+   "ext_pressure": 10.66,
+   "position": "30.653833333333335,-96.76766666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-20T00:11:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-20T00:11:02.950689Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:11:02.950665Z",
+   "lat": 30.654,
+   "lon": -96.74933333333334,
+   "alt": 29969.460000000003,
+   "comment": ",StrTrk,141,9,1.41V,-47C,1017Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3039.24N/09644.96WO087/064/A=098325,StrTrk,141,9,1.41V,-47C,1017Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 141,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -47.0,
+   "ext_pressure": 10.17,
+   "position": "30.654,-96.74933333333334",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-20T00:12:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-20T00:12:02.959486Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:12:02.959462Z",
+   "lat": 30.655,
+   "lon": -96.73066666666666,
+   "alt": 28674.364800000003,
+   "comment": ",StrTrk,142,9,1.42V,-47C,1293Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3039.30N/09643.84WO084/057/A=094076,StrTrk,142,9,1.42V,-47C,1293Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 142,
+   "sats": 9,
+   "batt": 1.42,
+   "temp": -47.0,
+   "ext_pressure": 12.93,
+   "position": "30.655,-96.73066666666666",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-20T00:13:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-20T00:13:02.923881Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:13:02.923829Z",
+   "lat": 30.656,
+   "lon": -96.71866666666666,
+   "alt": 26293.267200000002,
+   "comment": ",StrTrk,143,9,1.42V,-48C,1945Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3039.36N/09643.12WO006/010/A=086264,StrTrk,143,9,1.42V,-48C,1945Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 143,
+   "sats": 9,
+   "batt": 1.42,
+   "temp": -48.0,
+   "ext_pressure": 19.45,
+   "position": "30.656,-96.71866666666666",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-20T00:14:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-20T00:14:02.944892Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:14:02.944852Z",
+   "lat": 30.6535,
+   "lon": -96.71183333333333,
+   "alt": 24123.091200000003,
+   "comment": ",StrTrk,144,9,1.41V,-48C,2792Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3039.21N/09642.71WO117/028/A=079144,StrTrk,144,9,1.41V,-48C,2792Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 144,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -48.0,
+   "ext_pressure": 27.92,
+   "position": "30.6535,-96.71183333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-20T00:15:02.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-20T00:15:02.944153Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:15:02.944130Z",
+   "lat": 30.652,
+   "lon": -96.70416666666667,
+   "alt": 22283.928,
+   "comment": ",StrTrk,145,9,1.41V,-50C,3794Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3039.12N/09642.25WO106/005/A=073110,StrTrk,145,9,1.41V,-50C,3794Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 145,
+   "sats": 9,
+   "batt": 1.41,
+   "temp": -50.0,
+   "ext_pressure": 37.94,
+   "position": "30.652,-96.70416666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-20T00:25:09.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "K5RBC-10",
+   "path": "WIDE2-1,qAR,K5RBC-10",
+   "time_received": "2026-11-20T00:25:09.122171Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:25:09.122146Z",
+   "lat": 30.677,
+   "lon": -96.60516666666666,
+   "alt": 10883.4936,
+   "comment": ",StrTrk,9,2,1.30V,-54C,43855Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,K5RBC-10:!3040.62N/09636.31WO012/151/A=035707,StrTrk,9,2,1.30V,-54C,43855Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 9,
+   "sats": 2,
+   "batt": 1.3,
+   "temp": -54.0,
+   "ext_pressure": 438.55,
+   "position": "30.677,-96.60516666666666",
+   "uploaders": [
+    {
+     "uploader_callsign": "K5RBC-10"
+    }
+   ]
+  },
+  "2026-11-20T00:26:13.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "KD5OXM-10",
+   "path": "WIDE2-1,qAR,KD5OXM-10",
+   "time_received": "2026-11-20T00:26:13.029817Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:26:13.029795Z",
+   "lat": 30.676666666666666,
+   "lon": -96.59583333333333,
+   "alt": 11343.436800000001,
+   "comment": ",StrTrk,10,9,1.34V,-53C,18105Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,KD5OXM-10:!3040.60N/09635.75WO067/030/A=037216,StrTrk,10,9,1.34V,-53C,18105Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 10,
+   "sats": 9,
+   "batt": 1.34,
+   "temp": -53.0,
+   "ext_pressure": 181.05,
+   "position": "30.676666666666666,-96.59583333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "KD5OXM-10"
+    }
+   ]
+  },
+  "2026-11-20T00:27:09.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "K0MVH-2",
+   "path": "WIDE2-1,qAR,K0MVH-2",
+   "time_received": "2026-11-20T00:27:09.153762Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:27:09.153737Z",
+   "lat": 30.682,
+   "lon": -96.58733333333333,
+   "alt": 10652.4552,
+   "comment": ",StrTrk,11,9,1.35V,-51C,0999Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,K0MVH-2:!3040.92N/09635.24WO061/033/A=034949,StrTrk,11,9,1.35V,-51C,0999Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 11,
+   "sats": 9,
+   "batt": 1.35,
+   "temp": -51.0,
+   "ext_pressure": 9.99,
+   "position": "30.682,-96.58733333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "K0MVH-2"
+    }
+   ]
+  },
+  "2026-11-20T00:28:12.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-20T00:28:12.800058Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:28:12.800037Z",
+   "lat": 30.6865,
+   "lon": -96.57866666666666,
+   "alt": 9971.227200000001,
+   "comment": ",StrTrk,12,9,1.38V,-47C,0999Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3041.19N/09634.72WO070/033/A=032714,StrTrk,12,9,1.38V,-47C,0999Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 12,
+   "sats": 9,
+   "batt": 1.38,
+   "temp": -47.0,
+   "ext_pressure": 9.99,
+   "position": "30.6865,-96.57866666666666",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-20T00:29:09.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "K5RBC-10",
+   "path": "WIDE2-1,qAR,K5RBC-10",
+   "time_received": "2026-11-20T00:29:09.119442Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:29:09.119419Z",
+   "lat": 30.688666666666666,
+   "lon": -96.56883333333333,
+   "alt": 9203.436,
+   "comment": ",StrTrk,13,9,1.42V,-42C,3765Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,K5RBC-10:!3041.32N/09634.13WO082/029/A=030195,StrTrk,13,9,1.42V,-42C,3765Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 13,
+   "sats": 9,
+   "batt": 1.42,
+   "temp": -42.0,
+   "ext_pressure": 37.65,
+   "position": "30.688666666666666,-96.56883333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "K5RBC-10"
+    }
+   ]
+  },
+  "2026-11-20T00:30:08.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-20T00:30:08.952365Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:30:08.952324Z",
+   "lat": 30.689,
+   "lon": -96.5615,
+   "alt": 8538.3624,
+   "comment": ",StrTrk,14,9,1.45V,-37C,35706Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3041.34N/09633.69WO078/020/A=028013,StrTrk,14,9,1.45V,-37C,35706Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 14,
+   "sats": 9,
+   "batt": 1.45,
+   "temp": -37.0,
+   "ext_pressure": 357.06,
+   "position": "30.689,-96.5615",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-20T00:31:09.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WB5RDD-1",
+   "path": "WIDE2-1,qAR,WB5RDD-1",
+   "time_received": "2026-11-20T00:31:09.180382Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:31:09.180359Z",
+   "lat": 30.6905,
+   "lon": -96.55416666666666,
+   "alt": 7944.3072,
+   "comment": ",StrTrk,15,9,1.47V,-33C,38741Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WB5RDD-1:!3041.43N/09633.25WO066/022/A=026064,StrTrk,15,9,1.47V,-33C,38741Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 15,
+   "sats": 9,
+   "batt": 1.47,
+   "temp": -33.0,
+   "ext_pressure": 387.41,
+   "position": "30.6905,-96.55416666666666",
+   "uploaders": [
+    {
+     "uploader_callsign": "WB5RDD-1"
+    }
+   ]
+  },
+  "2026-11-20T00:32:09.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "KA5WMY-5",
+   "path": "WIDE2-1,qAR,KA5WMY-5",
+   "time_received": "2026-11-20T00:32:09.152156Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:32:09.152133Z",
+   "lat": 30.692,
+   "lon": -96.54683333333334,
+   "alt": 7303.312800000001,
+   "comment": ",StrTrk,16,9,1.49V,-28C,42169Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,KA5WMY-5:!3041.52N/09632.81WO085/016/A=023961,StrTrk,16,9,1.49V,-28C,42169Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 16,
+   "sats": 9,
+   "batt": 1.49,
+   "temp": -28.0,
+   "ext_pressure": 421.69,
+   "position": "30.692,-96.54683333333334",
+   "uploaders": [
+    {
+     "uploader_callsign": "KA5WMY-5"
+    }
+   ]
+  },
+  "2026-11-20T00:33:08.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-20T00:33:08.959035Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:33:08.959011Z",
+   "lat": 30.691833333333335,
+   "lon": -96.5395,
+   "alt": 6616.2936,
+   "comment": ",StrTrk,17,9,1.51V,-22C,46056Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3041.51N/09632.37WO097/019/A=021707,StrTrk,17,9,1.51V,-22C,46056Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 17,
+   "sats": 9,
+   "batt": 1.51,
+   "temp": -22.0,
+   "ext_pressure": 460.56,
+   "position": "30.691833333333335,-96.5395",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-20T00:34:08.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-20T00:34:08.948906Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:34:08.948882Z",
+   "lat": 30.691,
+   "lon": -96.53566666666667,
+   "alt": 5896.0512,
+   "comment": ",StrTrk,18,9,1.52V,-16C,50503Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3041.46N/09632.14WO076/004/A=019344,StrTrk,18,9,1.52V,-16C,50503Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 18,
+   "sats": 9,
+   "batt": 1.52,
+   "temp": -16.0,
+   "ext_pressure": 505.03,
+   "position": "30.691,-96.53566666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-20T00:35:08.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "WX5II-11",
+   "path": "WIDE2-1,qAR,WX5II-11",
+   "time_received": "2026-11-20T00:35:08.930089Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:35:08.930064Z",
+   "lat": 30.691,
+   "lon": -96.53416666666666,
+   "alt": 5194.0968,
+   "comment": ",StrTrk,19,9,1.54V,-11C,55160Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,WX5II-11:!3041.46N/09632.05WO094/010/A=017041,StrTrk,19,9,1.54V,-11C,55160Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 19,
+   "sats": 9,
+   "batt": 1.54,
+   "temp": -11.0,
+   "ext_pressure": 551.6,
+   "position": "30.691,-96.53416666666666",
+   "uploaders": [
+    {
+     "uploader_callsign": "WX5II-11"
+    }
+   ]
+  },
+  "2026-11-20T00:36:09.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "KA5WMY-5",
+   "path": "WIDE2-1,qAR,KA5WMY-5",
+   "time_received": "2026-11-20T00:36:09.141571Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:36:09.141546Z",
+   "lat": 30.691166666666668,
+   "lon": -96.53083333333333,
+   "alt": 4484.2176,
+   "comment": ",StrTrk,20,9,1.55V,-6C,60221Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-1,qAR,KA5WMY-5:!3041.47N/09631.85WO095/011/A=014712,StrTrk,20,9,1.55V,-6C,60221Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 20,
+   "sats": 9,
+   "batt": 1.55,
+   "temp": -6.0,
+   "ext_pressure": 602.21,
+   "position": "30.691166666666668,-96.53083333333333",
+   "uploaders": [
+    {
+     "uploader_callsign": "KA5WMY-5"
+    }
+   ]
+  },
+  "2026-11-20T00:37:09.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "W5KDP-10",
+   "path": "WIDE2-2,qAR,W5KDP-10",
+   "time_received": "2026-11-20T00:37:09.178294Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:37:09.178255Z",
+   "lat": 30.690166666666666,
+   "lon": -96.5295,
+   "alt": 3751.1736,
+   "comment": ",StrTrk,21,9,1.56V,-1C,65869Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE2-2,qAR,W5KDP-10:!3041.41N/09631.77WO171/010/A=012307,StrTrk,21,9,1.56V,-1C,65869Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 21,
+   "sats": 9,
+   "batt": 1.56,
+   "temp": -1.0,
+   "ext_pressure": 658.69,
+   "position": "30.690166666666666,-96.5295",
+   "uploaders": [
+    {
+     "uploader_callsign": "W5KDP-10"
+    },
+    {
+     "uploader_callsign": "K5VZC-1"
+    }
+   ]
+  },
+  "2026-11-20T00:39:09.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "KA5WMY-5",
+   "path": "WIDE1-1,WIDE2-2,qAR,KA5WMY-5",
+   "time_received": "2026-11-20T00:39:09.250607Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:39:09.250584Z",
+   "lat": 30.684833333333334,
+   "lon": -96.53216666666667,
+   "alt": 2147.0112,
+   "comment": ",StrTrk,23,9,1.58V,09C,79806Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE1-1,WIDE2-2,qAR,KA5WMY-5:!3041.09N/09631.93WO282/009/A=007044,StrTrk,23,9,1.58V,09C,79806Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 23,
+   "sats": 9,
+   "batt": 1.58,
+   "temp": 9.0,
+   "ext_pressure": 798.06,
+   "position": "30.684833333333334,-96.53216666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "KA5WMY-5"
+    },
+    {
+     "uploader_callsign": "N5BDJ-11"
+    }
+   ]
+  },
+  "2026-11-20T00:40:09.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "KA5WMY-5",
+   "path": "WIDE1-1,WIDE2-2,qAR,KA5WMY-5",
+   "time_received": "2026-11-20T00:40:09.226312Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:40:09.226292Z",
+   "lat": 30.6855,
+   "lon": -96.536,
+   "alt": 1401.7752,
+   "comment": ",StrTrk,24,9,1.59V,09C,87235Pa,",
+   "raw": "KE9CFY-11>CQ,WIDE1-1,WIDE2-2,qAR,KA5WMY-5:!3041.13N/09632.16WO303/009/A=004599,StrTrk,24,9,1.59V,09C,87235Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 24,
+   "sats": 9,
+   "batt": 1.59,
+   "temp": 9.0,
+   "ext_pressure": 872.35,
+   "position": "30.6855,-96.536",
+   "uploaders": [
+    {
+     "uploader_callsign": "KA5WMY-5"
+    },
+    {
+     "uploader_callsign": "N5BDJ-11"
+    }
+   ]
+  },
+  "2026-11-20T00:41:09.000Z": {
+   "software_name": "SondeHub APRS-IS Gateway",
+   "software_version": "367f7f4",
+   "uploader_callsign": "N5BDJ-11",
+   "path": "WA5SON-2,K5WH-2,WIDE2-1,qAR,N5BDJ-11",
+   "time_received": "2026-11-20T00:44:12.623128Z",
+   "payload_callsign": "KE9CFY-11",
+   "datetime": "2026-11-20T00:41:09.318332Z",
+   "lat": 30.685333333333332,
+   "lon": -96.53816666666667,
+   "alt": 665.988,
+   "comment": ",StrTrk,25,9,1.60V,13C,95157Pa,",
+   "raw": "KE9CFY-11>CQ,WA5SON-2,K5WH-2,WIDE2-1,qAR,N5BDJ-11:!3041.12N/09632.29WO265/012/A=002185,StrTrk,25,9,1.60V,13C,95157Pa,",
+   "aprs_tocall": "CQ",
+   "modulation": "APRS",
+   "model": "StratoTrack",
+   "frame": 25,
+   "sats": 9,
+   "batt": 1.6,
+   "temp": 13.0,
+   "ext_pressure": 951.57,
+   "position": "30.685333333333332,-96.53816666666667",
+   "uploaders": [
+    {
+     "uploader_callsign": "N5BDJ-11"
+    },
+    {
+     "uploader_callsign": "W5ZDN-15"
+    }
+   ]
+  }
+ }
+}
