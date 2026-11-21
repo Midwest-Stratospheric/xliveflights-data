@@ -1,0 +1,56 @@
+{
+ "eagle": {
+  "rows_in_file": 1574,
+  "rows_kept": 1570,
+  "rows_dropped": 4,
+  "dropped_junk_2012": 2,
+  "dropped_prefix_zero": 2,
+  "midnight_date_fixes": 1,
+  "first_kept": "2026-11-19T21:50:54Z",
+  "last_kept": "2026-11-20T00:34:42Z",
+  "peak_m": 30089,
+  "peak_ft": 98717,
+  "peak_utc": "2026-11-20T00:11:24Z",
+  "peak_lat": 30.65468,
+  "peak_lon": -96.74027,
+  "min_temp_c": -39.2,
+  "min_temp_first_utc": "2026-11-19T23:08:36Z",
+  "min_temp_last_utc": "2026-11-19T23:09:00Z",
+  "min_temp_rows": 5,
+  "max_temp_c": 25.8,
+  "launch_utc": "2026-11-19T22:16:24Z",
+  "ground_m": 203,
+  "last_alt_m": 150,
+  "last_lat": 30.67441,
+  "last_lon": -96.58593,
+  "flight_time_s": 8298,
+  "ascent_s": 6900,
+  "log_span_s": 9828,
+  "min_pa": 17780,
+  "min_pa_utc": "2026-11-19T23:06:54Z",
+  "stale_rows": 368,
+  "gaps": [
+   [
+    "2026-11-19T23:02:00Z",
+    "2026-11-19T23:02:24Z",
+    24
+   ],
+   [
+    "2026-11-19T23:06:54Z",
+    "2026-11-19T23:07:18Z",
+    24
+   ],
+   [
+    "2026-11-20T00:19:00Z",
+    "2026-11-20T00:25:24Z",
+    384
+   ]
+  ]
+ },
+ "vertical_rates": {
+  "ascent_mean_mps": 4.33,
+  "descent_mean_mps": -21.42,
+  "ascent_intervals": 841,
+  "descent_intervals": 105
+ }
+}
