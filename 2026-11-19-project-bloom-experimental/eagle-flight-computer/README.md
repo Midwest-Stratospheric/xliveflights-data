@@ -7,9 +7,15 @@ launched near Round Rock, Texas and recovered west of Bryan, Texas.
 
 | File | What it is |
 |---|---|
-| `pbe-eagle-flight-computer-2026-11-19.txt` | Raw log exactly as written by the flight computer (unchanged, CRLF line endings). |
+| `pbe-eagle-flight-computer-2026-11-19.txt` | Raw log as written by the flight computer. Content is unchanged; see the line-ending note below. |
 | `pbe-eagle-flight-computer-2026-11-19-clean.csv` | Cleaned CSV (see "Cleaning" below). |
 | `eagle-altitude-time.svg` | GPS altitude vs time chart (fresh GPS fixes only). |
+
+Line-ending note: the original file from the flight computer uses Windows CRLF line endings (129,693 bytes,
+SHA-256 `d9296edbbd7ceda90dd08f73e9910be433f110e9d6ba9415408e771433be68c2`). The upload tool used for this
+commit stored it with LF line endings (128,104 bytes, SHA-256
+`4698317ed34c8c5405ee20ecc17bab91b7e7b9091e940ef02aade974fd406f18`). Every character other than the
+carriage returns is identical.
 
 ## Sensor notes
 
